@@ -8,9 +8,9 @@ file.write("{ \"cards\" : [ ")
 while(True):
     #Write a card
 
-    print "Stop?"
+    print "Press enter to continue..."
 
-    if raw_input() == ""
+    if raw_input() != "":
         break
 
     print #a space
@@ -20,12 +20,20 @@ while(True):
 
     #name
     print "Name? "
-    name = input()
-    if input != "":
-        file.write(" \"name\": ")
+    text = raw_input()
+    if text != "":
+        file.write(" \"Name\": \"" + text + "\" ")
+
+    #star level
+    print "Star Level? "
+    text = raw_input()
+    if text != "":
+        file.write(" \"Star Level\": " + text + " ")
 
     #end the card
     file.write("} ")
 
 #footer stuff
 file.write("] }")
+
+file.close()

@@ -52,7 +52,7 @@ while(True):
         print "Damage? "
         text = raw_input()
         if text != "":
-            file.write(" \"Damage\": " + text + " ")
+            file.write(" \"Damage\": " + text + ", ")
         
     #Range type
     print "Range Type? "
@@ -66,8 +66,6 @@ while(True):
         text = raw_input()
         if text != "":
             file.write(", \"Min\": " + text + " ")
-
-        file.write("} ")
 
         #Max Range
         print "Max? "
@@ -103,18 +101,22 @@ while(True):
 
         file.write(" \"" + text + "\" ") #first class
         
-        while text != "":
-            file.write(", \"" + text + "\" ")#other classes
+        while True:
             print "Another Empowered Class?"
             text = raw_input()
+
+            if text == "":
+                break
+                
+            file.write(", \"" + text + "\" ")#other classes
             
         file.write(" ], ")
 
-    #Empowered Text
-    print "Empowered Text? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Empowered Text\": \"" + text + "\", ")
+        #Empowered Text
+        print "Empowered Text? "
+        text = raw_input()
+        if text != "":
+            file.write(" \"Empowered Text\": \"" + text + "\", ")
 
     #Flavor Text
     print "Flavor Text? "
@@ -122,18 +124,59 @@ while(True):
     if text != "":
         file.write(" \"Flavor Text\": \"" + text + "\", ")
 
-    #Flavor Text
+    #Starting Class
     print "Starting Class? "
     text = raw_input()
     if text != "":
         file.write(" \"Starting Class\": \"" + text + "\", ")
 
     #health? (is parent for all class stuff)
-    print "Star Level? "
+    print "Health? "
     text = raw_input()
     if text != "":
-        file.write(" \"Star Level\": " + text + ", ")
-        ###############continue work here
+        file.write(" \"Health\": " + text + ", ")
+
+        #Starting Actions
+        print "Starting Action? "
+        text = raw_input()
+        if text != "": #write a list of the classes
+            file.write(" \"Starting Actions\": [")
+
+            file.write(" \"" + text + "\" ") #first class
+            
+            while True:
+                print "Another starting action?"
+                text = raw_input()
+
+                if text == "":
+                    break
+                
+                file.write(", \"" + text + "\" ")#other actions
+                
+            file.write(" ], ")
+
+        #Class ability
+        print "Class Ability? "
+        text = raw_input()
+        if text != "":
+            file.write(" \"Class Ability\": { ")
+
+            #name  
+            file.write(" \"Name\": \"" + text + "\", ")
+
+            #Rules Text
+            #Starting Class
+            print "Rules Text? "
+            text = raw_input()
+            if text != "":
+                file.write(" \"Rules Text\": \"" + text + "\"")
+
+            file.write(" },")
+
+    print "Image Number? "
+    text = raw_input()
+    if text != "":
+        file.write(" \"Image Number\": " + text + " ")
 
     #end the card
     file.write("} ")

@@ -1,0 +1,69 @@
+{
+   "version": "0.0.0.1"
+   "cards":[
+      {
+         "Name":"Cleansing Tags",
+         "Type":"Equipment",
+         "Star Level":1,
+         "Rules Text":"**Your Tablet size increases by 1.** If you receive a Condition from an Action you successfully Guarded, immediatly cure it. As an Action, you may discard this from your Tablet to cure up to 2 conditions.",
+         "Flavor Text":"*The inscription on each tag reads \"Harmony\".*",
+         "Image Number":1
+      },
+      {
+         "Name":"Ring of Commitment",
+         "Type":"Equipment",
+         "Star Level":2,
+         "Rules Text":"**Your Tablet size increases by 1.** When using an Action, you may discard a card from your hand with a name matching that action to instantly use it a second time. Afterwards, you gain 2 stacks of **Fatigue**.",
+         "Flavor Text":"*The ring of goodwill has a long and bloody history.*",
+         "Image Number":2
+      },
+      {
+         "Name":"Power Bracelet",
+         "Type":"Equipment",
+         "Star Level":3,
+         "Rules Text":"All of your Physical Attack cards have +10 added to their base damage. This continues to affect them even if they temorarily change to \"Absolute\" attacks.",
+         "Flavor Text":"*The strength it provides to the wearer would allow even children to throw boulders.*",
+		 "Image Number":3
+      },
+      {
+         "Name":"Mage's Cloak",
+         "Type":"Equipment",
+         "Star Level":3,
+         "Rules Text":"All of your Magical Attack cards have +10 added to their base damage. This continues to affect them even if they temporarily change to \"Absolute\" Attacks.",
+         "Flavor Text":"*The threads themselves were imbuded with concentrated magic before being careful woven together.*",
+         "Image Number":4
+      },
+      {
+         "Name":"Soldier's Kite",
+         "Type":"Equipment",
+         "Star Level":3,
+         "Rules Text":"Reduce all Physical and Magical damage you take by 10.",
+         "Flavor Text":"*Most recivers mock the name, but none will deny it was this handy armament that led them all home.*",
+         "Image Number":5
+      },
+      {
+         "Name":"Storage Matrix",
+         "Type":"Equipment",
+         "Star Level":3,
+         "Rules Text":"As an action, discard this card to reduce the cost of all actions this turn by 1 *(Minimum 0).*",
+         "Flavor Text":"*A complex arrangment of cubes, each holding a snall quantum of energy. If you turn it just right, it all pours out at once.*",
+         "Image Number":6
+      },
+      {
+         "Name":"Vola Tabi",
+         "Type":"Equipment",
+         "Star Level":4,
+         "Rules Text":"Your base movement is raised by 1.",
+         "Flavor Text":"*The small wings are made of feathers plucked from over 20 different creatures. Included are various birds, elementals, raptors and even angels.*",
+         "Image Number":7
+      },
+      {
+         "Name":"Calamitous Disk",
+         "Type":"Equipment",
+         "Star Level":6,
+         "Rules Text":"All damage you deal or take is increased by 20. Raise the result of your Crit Rolls by 1.",
+         "Flavor Text":"*Anyone that looks deep enough into it's voidlike core will see nothing but death and fear eternal.*",
+         "Image Number":8
+      }
+   ]
+}

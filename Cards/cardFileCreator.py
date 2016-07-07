@@ -26,66 +26,77 @@ while(True):
 
     #type
     print "Type? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Type\": \"" + text + "\", ")
+    cardType = raw_input()
+    if cardType != "":
+        file.write(" \"Type\": \"" + cardType + "\", ")
 
-    #reaction type
-    print "Reaction Type? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Reaction Type\": \"" + text + "\", ")
-
-    #Action type
-    print "Action Type? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Action Type\": \"" + text + "\", ")
-
-    #Attack type
-    print "Attack Type? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Attack Type\": \"" + text + "\", ")
-
-        #Damage
-        print "Damage? "
+    if cardType == "Reaction":
+        #reaction type
+        print "Reaction Type? "
         text = raw_input()
         if text != "":
-            file.write(" \"Damage\": " + text + ", ")
+            file.write(" \"Reaction Type\": \"" + text + "\", ")
+
+    if cardType == "Action":
+        #Action type
+        print "Action Type? "
+        actionType = raw_input()
+        if actionType != "":
+            file.write(" \"Action Type\": \"" + actionType + "\", ")
+
+        if actionType == "Attack":
+            #Attack type
+            print "Attack Type? "
+            text = raw_input()
+            if text != "":
+                file.write(" \"Attack Type\": \"" + text + "\", ")
+
+                #Damage
+                print "Damage? "
+                text = raw_input()
+                if text != "":
+                    file.write(" \"Damage\": " + text + ", ")
         
-    #Range type
-    print "Range Type? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Range\": { ")
-        file.write(" \"Type\": \"" + text + "\" ")
-
-        #Min Range
-        print "Min? "
+        #Range type
+        print "Range Type? "
         text = raw_input()
         if text != "":
-            file.write(", \"Min\": " + text + " ")
+            file.write(" \"Range\": { ")
+            file.write(" \"Type\": \"" + text + "\" ")
 
-        #Max Range
-        print "Max? "
+            #Min Range
+            print "Min? "
+            text = raw_input()
+            if text != "":
+                file.write(", \"Min\": " + text + " ")
+
+            #Max Range
+            print "Max? "
+            text = raw_input()
+            if text != "":
+                file.write(", \"Max\": " + text + " ")
+
+            file.write("}, ")
+
+        #AP cost
+        print "AP cost? "
         text = raw_input()
         if text != "":
-            file.write(", \"Max\": " + text + " ")
+            file.write(" \"AP cost\": " + text + ", ")
 
-        file.write("}, ")
+        #Starting Class
+        print "Starting Class? "
+        text = raw_input()
+        if text != "":
+            file.write(" \"Starting Class\": \"" + text + "\", ")
 
-    #star level
-    print "Star Level? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Star Level\": " + text + ", ")
+    if cardType == "Equipment":
+        #star level
+        print "Star Level? "
+        text = raw_input()
+        if text != "":
+            file.write(" \"Star Level\": " + text + ", ")
 
-    #AP cost
-    print "AP cost? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"AP cost\": " + text + ", ")
 
     #Rules Text
     print "Rules Text? "
@@ -124,17 +135,12 @@ while(True):
     if text != "":
         file.write(" \"Flavor Text\": \"" + text + "\", ")
 
-    #Starting Class
-    print "Starting Class? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Starting Class\": \"" + text + "\", ")
-
-    #health? (is parent for all class stuff)
-    print "Health? "
-    text = raw_input()
-    if text != "":
-        file.write(" \"Health\": " + text + ", ")
+    if cardType == "Class":
+        #health?
+        print "Health? "
+        text = raw_input()
+        if text != "":
+            file.write(" \"Health\": " + text + ", ")
 
         #Starting Actions
         print "Starting Action? "
@@ -164,7 +170,6 @@ while(True):
             #name  
             file.write(" \"Name\": \"" + text + "\", ")
 
-            #Rules Text
             #Starting Class
             print "Rules Text? "
             text = raw_input()

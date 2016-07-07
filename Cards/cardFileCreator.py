@@ -179,7 +179,7 @@ while(True):
         file.write(" \"Image Number\": " + text + " ")
 
     #end the card
-    file.write("} ")
+    file.write("}, ")
 
 #footer stuff
 file.write("] }")

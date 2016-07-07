@@ -56,6 +56,13 @@ while(True):
                 text = raw_input()
                 if text != "":
                     file.write(" \"Damage\": " + text + ", ")
+
+        if actionType == "Focus":
+            #Focus type
+            print "Focus Type? "
+            text = raw_input()
+            if text != "":
+                file.write(" \"Focus Type\": \"" + text + "\", ")
         
         #Range type
         print "Range Type? "

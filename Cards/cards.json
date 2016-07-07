@@ -1,5 +1,5 @@
 {
-   "version": "0.0.0.1",
+   "version": "0.0.0.2",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -64,6 +64,118 @@
          "Rules Text":"All damage you deal or take is increased by 20. Raise the result of your Crit Rolls by 1.",
          "Flavor Text":"*Anyone that looks deep enough into it's voidlike core will see nothing but death and fear eternal.*",
          "Image Number":8
+      },
+	  {
+         "Name":"Riposte",
+         "Type":"Reaction",
+         "Reaction Type":"Physical Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Physical Attack**. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":9
+      },
+      {
+         "Name":"Counterspell",
+         "Type":"Reaction",
+         "Reaction Type":"Magical Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as teh result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":10
+      },
+      {
+         "Name":"Backstep",
+         "Type":"Reaction",
+         "Reaction Type":"Melee Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Melee Attack**. Afterwards, move 1 space away from the attacker if possible. Reduce your AP by 1.",
+         "Image Number":11
+      },
+      {
+         "Name":"Doge Roll",
+         "Type":"Reaction",
+         "Reaction Type":"Ranged Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Ranged Attack**. Afterwards, move 1 space towards the attacker if possible. Reduce your AP by 1.",
+         "Image Number":12
+      },
+      {
+         "Name":"Keen Awareness",
+         "Type":"Reaction",
+         "Reaction Type":"Sabotage",
+         "Rules Text":"Prevent all effects from a **Sabotage Action** that targets you. The opponent must discard that action if they otherwise wouldn't. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":13
+      },
+      {
+         "Name":"Peace of Mind",
+         "Type":"Reaction",
+         "Reaction Type":"Discard",
+         "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Suffle your hand back into your deck, then draw 1 card.",
+         "Image Number":14
+      },
+      {
+         "Name":"Negate",
+         "Type":"Reaction",
+         "Reaction Type":"Attack *(Any)*",
+         "Rules Text":"You Gaurd this attack if able. The opponent must discard that action if tehy otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
+         "Image Number":15
+      },
+      {
+         "Name":"Death Roulette",
+         "Type":"Reaction",
+         "Reaction Type":"Attack *(Any)*",
+         "Rules Text":"Your opponent Crits this attack and you do not Gaurd. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
+         "Image Number":16
+      },
+	  {
+         "Name":"Riposte",
+         "Type":"Reaction",
+         "Reaction Type":"Physical Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Physical Attack**. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":9
+      },
+      {
+         "Name":"Counterspell",
+         "Type":"Reaction",
+         "Reaction Type":"Magical Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as teh result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":10
+      },
+      {
+         "Name":"Backstep",
+         "Type":"Reaction",
+         "Reaction Type":"Melee Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Melee Attack**. Afterwards, move 1 space away from the attacker if possible. Reduce your AP by 1.",
+         "Image Number":11
+      },
+      {
+         "Name":"Doge Roll",
+         "Type":"Reaction",
+         "Reaction Type":"Ranged Attack",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Ranged Attack**. Afterwards, move 1 space towards the attacker if possible. Reduce your AP by 1.",
+         "Image Number":12
+      },
+      {
+         "Name":"Keen Awareness",
+         "Type":"Reaction",
+         "Reaction Type":"Sabotage",
+         "Rules Text":"Prevent all effects from a **Sabotage Action** that targets you. The opponent must discard that action if they otherwise wouldn't. In addition to this card, you must also discard another card from your hand if able.",
+         "Image Number":13
+      },
+      {
+         "Name":"Peace of Mind",
+         "Type":"Reaction",
+         "Reaction Type":"Discard",
+         "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Suffle your hand back into your deck, then draw 1 card.",
+         "Image Number":14
+      },
+      {
+         "Name":"Negate",
+         "Type":"Reaction",
+         "Reaction Type":"Attack *(Any)*",
+         "Rules Text":"You Gaurd this attack if able. The opponent must discard that action if tehy otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
+         "Image Number":15
+      },
+      {
+         "Name":"Death Roulette",
+         "Type":"Reaction",
+         "Reaction Type":"Attack *(Any)*",
+         "Rules Text":"Your opponent Crits this attack and you do not Gaurd. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
+         "Image Number":16
       }
    ]
 }

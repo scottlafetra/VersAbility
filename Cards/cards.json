@@ -1,5 +1,5 @@
 {
-   "version": "0.0.0.2",
+   "version": "0.0.3",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -285,9 +285,7 @@
          "Action Type":"Focus",
          "Focus Type":"Sabotage",
          "Range":{
-            "Type":"Melee",
-            "Min":0,
-            "Max":0
+            "Type":"Melee"
          },
          "AP cost":3,
          "Rules Text":"Place a Bear Trap on the targeted empty space. When a character stands on it, remove the trap and they lose 10 health. They also lose 2 movement points if it's their turn.",
@@ -543,6 +541,707 @@
          ],
          "Empowered Text":"You man reduce your AP by one to instead choose a card with an AP cost of 2.",
          "Image Number":37
+      },
+	  {
+         "Name":"Equilibrium",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":"X",
+         "Rules Text":"**X is the number of conditions and stacks of fatigue currently on you.** Cure all conditions on you and remove 1 stack of fatigue. Reduce your AP by 1.",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"If you removed any stacks of fatigue, recover 10 health.",
+         "Image Number":38
+      },
+      {
+         "Name":"First Aid",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Heal",
+         "Heal":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":0,
+            "Max":1
+         },
+         "AP cost":3,
+         "Rules Text":"As well as healing, target may cure up to 1 condition. On crit, target removes 1 stack of fatigue. **Range cannot be altered, discard after use.**",
+         "Flavor Text":"*Everyone knows how to survive, but some are a little better prepared for it.*",
+         "Image Number":39
+      },
+      {
+         "Name":"Focus Shot",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":3,
+            "Max":4
+         },
+         "AP cost":3,
+         "Rules Text":"This action cannot be used if you are *Exhausted* or have a \"**Disruption**\" condition. +10 damage for each point of movement remaining, but immediately lose all your remaining movement. **Opponent does not make a Guard Roll.**",
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"You may reduce your AP by 1 for +10 damage.",
+         "Image Number":40
+      },
+      {
+         "Name":"Forced Migraine",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":0,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":1,
+         "Rules Text":"On Crit, inflicts the \"**Disruption**\" condition.",
+         "Empowered Classes":[
+            "Magician",
+            "Saboteur"
+         ],
+         "Empowered Text":"**Crit Rate +1** per card in target's hand.",
+         "Flavor Text":"*The temple bell rings loudest at its center.*",
+         "Image Number":41
+      },
+      {
+         "Name":"Grand Finale",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Absolute",
+         "Damage":40,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":4,
+         "Rules Text":"You cannot use this action if it was added to your Tablet this turn. After using this action, reduce your AP by 2 and your turn immediately ends. **Discard after use.**",
+         "Empowered Classes":[
+            "Maestro"
+         ],
+         "Empowered Text":"You may reduce your AP by another 2 for +20 damage.",
+         "Flavor Text":"*Truly an end befitting the best of performances.*",
+         "Image Number":42
+      },
+      {
+         "Name":"Grappling Hook",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":3,
+            "Max":3
+         },
+         "AP cost":2,
+         "Rules Text":"**Cannot aim diagonally and cannot enhance range.** Pulls you and target 1 space towards one another *(pulls around terrain, but still only one space).* **Discard after use.**",
+         "Empowered Classes":[
+            "Dragoon"
+         ],
+         "Empowered Text":"If used after a movement based action, AP cost is reduced by 1.",
+         "Image Number":43
+      },
+      {
+         "Name":"Harness Cut",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":4,
+         "Rules Text":"If an opponent fails their Guard Roll, they must discard an Equipment from their Tablet if possible.",
+         "Empowered Classes":[
+            "Warrior",
+            "Brigand"
+         ],
+         "Empowered Text":"Opponent discards Equipment regardless of Guard Roll. If any Equipment is discarded, increase your AP by 1.",
+         "Flavor Text":"*Pretty embarassing when your armor just falls off.*",
+         "Image Number":44
+      },
+      {
+         "Name":"Icy Wind",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":2,
+         "Rules Text":"On Crit, inflicts **\"Frozen\"** condition.",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"Always inflicts the **\"Frozen\"** condition. Max Range increased by 1.",
+         "Flavor Text":"*The sensation of a blizzard in one fell breeze.*",
+         "Image Number":45
+      },
+      {
+         "Name":"Identify Weakpoint",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":1,
+         "Rules Text":"Mark a target. Your next Attack against that target this turn will automatically Crit *(if possible)*. **Discard after use.**",
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"Max Range increased by 2.",
+         "Flavor Text":"*\"No, not the shield. Aim at the fleshy bits.\"*",
+         "Image Number":46
+      },
+      {
+         "Name":"Inner Strength",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":2,
+         "Rules Text":"The next Physical attack you use this turn deals +20 damage if Melee, or +10 damage if Ranged.",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"If the attack is Melee, it also inflicts the **\"Disruption\"** condition.",
+         "Flavor Text":"*\"The mind is sharper than any weapon.\"*",
+         "Image Number":47
+      },
+      {
+         "Name":"Keen Vision",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":2,
+         "Rules Text":"Increase the Max Range of your next Ranged attack this turn by 2. **Discard after use.**",
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"You may choose not to discard after use.",
+         "Flavor Text":"*\"What's it like to be that way? What can you see?\" \"I can see stars in the day. They're so beautiful then.\"*",
+         "Image Number":48
+      },
+      {
+         "Name":"Knockdown",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Rules Text":"Rushes target back 1 space if possible. **This attack cannot Crit.**",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"You may move 1 space towards the target after push. Against that target, your next action this turn has **Crit rate +2.**",
+         "Image Number":49
+      },
+      {
+         "Name":"Lightning Spear",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":3,
+         "Rules Text":"**Cannot aim diagonally, but also damages the next 2 spaces behind the target.** Put a token on this card on use. When this card has 2 tokens, discard it.",
+         "Empowered Classes":[
+            "Magician",
+            "Spellslinger"
+         ],
+         "Empowered Text":"You may target a space instead of a character.",
+         "Image Number":50
+      },
+      {
+         "Name":"Lockdown",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":3,
+         "Rules Text":"Target makes a Guard Roll. If they succeed, nothing happens. If they fail, that character cannot move on their next turn unless they do so via action. This effect cancels early if you move before them. **Discard after use.**",
+         "Empowered Classes":[
+            "Sentinel"
+         ],
+         "Empowered Text":"The target also loses 20 health, even if they guarded.",
+         "Image Number":51
+      },
+      {
+         "Name":"Longshot",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":2,
+            "Max":4
+         },
+         "AP cost":2,
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"Max range increased by 1.",
+         "Flavor Text":"*There are few better covers than sheer distance.*",
+         "Image Number":52
+      },
+      {
+         "Name":"Magic Missile",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":30,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":3,
+         "Rules Text":"Instead of +10 damage on Crit, damage type becomes \"Absolute\" from \"Magical\".",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"May target through obstructions and characters.",
+         "Flavor Text":"*\"It doesn't matter if I can see my enemy if I know where to find them.\"*",
+         "Image Number":53
+      },
+      {
+         "Name":"Plague Field",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":0,
+            "Max":4
+         },
+         "AP cost":3,
+         "Rules Text":"**This action affects every space within its range, and also ignores obstacles.** All targeted characters gain the \"Poisoned\" condition.",
+         "Empowered Classes":[
+            "Acolyte"
+         ],
+         "Empowered Text":"**Crit Rate +1** for the rest of the turn. You gain 1 additional movement point this turn.",
+         "Flavor Text":"*To the Caustician Acolytes, plague is the true equalizer.*",
+         "Image Number":54
+      },
+      {
+         "Name":"Poison Bomb",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":3,
+            "Max":3
+         },
+         "AP cost":4,
+         "Rules Text":"As well as the target, this attack hits all characters within Melee range of the target. On Crit, inflicts the **\"Poisoned\"** condition to all targets hit.",
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"Max Range increased by 1. Always inflicts the **\"Poisoned\"** condition.",
+         "Image Number":55
+      },
+      {
+         "Name":"Reaper's Circle",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":3,
+         "Rules Text":"**This attack affects every space within its range.** Damage +20 when targeting multiple characters. For the rest of the turn, you cannot move or use movement based actions.",
+         "Empowered Classes":[
+            "Dragoon"
+         ],
+         "Empowered Text":"If you damaged multiple opponents with this action, recover up to 20 health.",
+         "Image Number":56
+      },
+      {
+         "Name":"Ruin",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Rules Text":"If this action deals no damage for any reason, you gain 1 stack of fatigue.",
+         "Flavor Text":"*There is nothing that cannot erode.*",
+         "Image Number":57
+      },
+      {
+         "Name":"Rush of Knowledge",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":2,
+         "Rules Text":"Draw 2 cards, then discard a card from your hand. **Discard after use.**",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"You man reduce your AP by 1 instead of discarding this.",
+         "Flavor Text":"*One question, millions of answers.*",
+         "Image Number":58
+      },
+      {
+         "Name":"Searing Touch",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":30,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":4,
+         "Rules Text":"On Crit, inflicts the **\"Burning\"** condition.",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"Always inflicts the **\"Burning\"** condition. **Crit Rate +1**",
+         "Flavor Text":"*\"We need no iron to brand our marks\"*",
+         "Image Number":59
+      },
+      {
+         "Name":"Shadow Strike",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Rules Text":"Opponent does not make a Guard Roll if their AP is less than yours.",
+         "Empowered Classes":[
+            "Rogue"
+         ],
+         "Empowered Text":"Target's AP is reduced by 1 if theirs is higher than yours.",
+         "Flavor Text":"*\"They'll never see it coming.\"*",
+         "Image Number":60
+      },
+      {
+         "Name":"Sleep Dart",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":0,
+         "Range":{
+            "Type":"Ranged",
+            "Min":2,
+            "Max":3
+         },
+         "AP cost":1,
+         "Rules Text":"Target gains 1 stack of Fatigue. **Discard after use.**",
+         "Empowered Classes":[
+            "Archer",
+            "Hunter"
+         ],
+         "Empowered Text":"If you are adjacent to the target anytime this turn, you may return this card from Discard to Hand. If target has a Hunter's Mark, **Crit Rate +1** against that target for the rest of the turn.",
+         "Image Number":61
+      },
+      {
+         "Name":"Smite",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":30,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":4,
+         "Rules Text":"Opponent must discard a Reaction card if able.",
+         "Empowered Classes":[
+            "Warrior",
+            "Channeler"
+         ],
+         "Empowered Text":"Opponent discards all Reaction cards instead. If any Reactions are discarded this way, heal 10 health.",
+         "Flavor Text":"*\"Before the Omnis, no lie can save you.\"*",
+         "Image Number":62
+      },
+      {
+         "Name":"Sonic Alarm",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":2,
+         "Rules Text":"Place a Sonic Alarm Trap on targeted space. If a player ever lands on that trap, remove it and that player loses10 health and gains the **\"Disruption\"** condition, or loses 20 health if they already have the **\"Disruption\"** condition.",
+         "Empowered Classes":[
+            "Rogue",
+            "Scout"
+         ],
+         "Empowered Text":"You can't trigger your own Sonic Alarm Traps. Max Range increased by 1.",
+         "Image Number":63
+      },
+      {
+         "Name":"Sprint",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":3,
+         "Rules Text":"Immediately gain 2 movement points this turn. You gain a stack of fatigue.",
+         "Flavor Text":"*A window of opportunity is only open for so long.*",
+         "Image Number":64
+      },
+      {
+         "Name":"Stone Skin",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":2,
+         "Rules Text":"Immediately make a Crit Roll with **Crit Rate +2**. If you succeed, gain the **\"Immune\"** condition and **discard this card**.",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"**Crit Rate +4** instead. Remove 1 stack of Fatigue.",
+         "Flavor Text":"*The stone remains forever solid and without wither.*",
+         "Image Number":65
+      },
+      {
+         "Name":"Sunvial",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Absolute",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":2,
+         "Rules Text":"Inflicts the **\"Blind\"** condition to the target and all characters adjacent to that target. Put a token on this card. When it has one token, discard it.",
+         "Empowered Classes":[
+            "Archer",
+            "Spellslinger"
+         ],
+         "Empowered Text":"Discard at 2 tokens instead of 1.",
+         "Flavor Text":"*It holds the last wish of a dying star.*",
+         "Image Number":66
+      },
+      {
+         "Name":"Survival Tactics",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":3,
+         "Rules Text":"Swap this card with any Action card is your Discard.",
+         "Empowered Classes":[
+            "Archer"
+         ],
+         "Empowered Text":"Instead of an Action, you may choose an Equipment with a star level of 2 or lower.",
+         "Flavor Text":"*It pays to care as much about what you throw away as what you keep.*",
+         "Image Number":67
+      },
+      {
+         "Name":"Swing of Destiny",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Rules Text":"On crit, damage +30 instead of +10, and type becomes \"Absolute\" instead of \"Physical\", but you gain 1 stack of Fatigue and reduce your AP by 2.",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"**Crit Rate +1**. You may discard  2 cards from your deck to not gain stack of Fatigue.",
+         "Image Number":68
+      },
+      {
+         "Name":"Tackle",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Rules Text":"If this action deals no damage for any reason, you gain 1 stack of fatigue.",
+         "Flavor Text":"*There's no wrong in avoiding trouble, but sometimes you just have to push through it.*",
+         "Image Number":69
+      },
+      {
+         "Name":"Take Cover",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Rules Text":"**Also costs 2 Movement Points. Can only target a non-character obstacle *(any size)*.** Move to any open space adjacent to the target obstacle.",
+         "Empowered Classes":[
+            "Rogue"
+         ],
+         "Empowered Text":"Raise the dice result of your next Crit Roll this turn by 1.",
+         "Flavor Text":"*\"Hopeless? Please, there's still places to hide.\"*",
+         "Image Number":70
+      },
+      {
+         "Name":"Throwing Axe",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":30,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":4,
+         "Rules Text":"**Cannot Crit at Melee distance.**",
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"**Crit Rate +1.**",
+         "Flavor Text":"*\"Personally, I love axes. Good in a fight, cuts down trees, comes with a non-lethal side, AND you can even throw them.\"*",
+         "Image Number":71
+      },
+      {
+         "Name":"Tonal Shift",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":2,
+         "Rules Text":"Both you and the target each choose one action in your Action Tablet at random and shuffle them into each owner's deck. Then, each player reveals from the top of their Tablet and shuffling the rest back into their deck.",
+         "Empowered Classes":[
+            "Maestro"
+         ],
+         "Empowered Text":"You may reduce or increase the AP cost by 1.",
+         "Image Number":72
+      },
+      {
+         "Name":"Trap Sense",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged Global"
+         },
+         "AP cost":4,
+         "Rules Text":"Each player discards a Sabotage action from their Tablet. Anyone that cannot instead discards 3 cards from the top of their deck. Additionally, remove all trap tokens from the board.",
+         "Empowered Classes":[
+            "Rogue"
+         ],
+         "Empowered Text":"Choose a player to reveal their hand. If they reveal any Sabotage cards, you may draw a card.",
+         "Image Number":73
+      },
+      {
+         "Name":"Vacuum Force",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":2,
+            "Max":2
+         },
+         "AP cost":3,
+         "Rules Text":"**Cannot aim diagonally.** Target is pulled 1 space towards you *(pulls around terrain, but still only one space)*.",
+         "Empowered Classes":[
+            "Magician",
+            "Channeler"
+         ],
+         "Empowered Text":"Max range increased by 1. Pulls 2 spaces instead of 1.",
+         "Image Number":74
+      },
+      {
+         "Name":"Variance",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":0,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Rules Text":"**Crit Range -1** For every 30 health you are missing *(rounded down)*, this attack deals +10 damage.",
+         "Empowered Classes":[
+            "Sentinel"
+         ],
+         "Empowered Text":"Before dealing damage, you may recover or lose up to 10 health.",
+         "Image Number":75
+      },
+      {
+         "Name":"Willbreaker",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":4,
+         "Rules Text":"If target has \"Disruption\" condition, +20 damage and they must discard the top 3 cards of their deck.",
+         "Empowered Classes":[
+            "Drowser"
+         ],
+         "Empowered Text":"Instead of +20 damage, you may have the target gain 2 stacks of Fatigue.",
+         "Flavor Text":"*Hypnotism works best on the suggestible.*",
+         "Image Number":76
       }
    ]
 }

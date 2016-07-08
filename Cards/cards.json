@@ -437,6 +437,112 @@
          ],
          "Empowered Text":"For each Equipment or Reaction that was discarded, you may draw a card.",
          "Image Number":31
+      },
+	  {
+         "Name":"Deadly Slash",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":30,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":3,
+         "Empowered Classes":[
+            "Warrior"
+         ],
+         "Empowered Text":"On Crit, deals +20 damage instead of +10. Ignores opponet's Equipment reductions.",
+         "Flavor Text":"*\"I mean, if you swing hard enough...\"*",
+         "Image Number":32
+      },
+      {
+         "Name":"Drastic Measure",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":3,
+         "Rules Text":"Reveal cards from the top of your deck until you find a number of unique Action cards equal to the number of Actions on your Tablet Actions *(not Equipment)* and replace them with the new ones. Finally, shuffle the revealed cards back into your deck.",
+         "Empowered Classes":[
+            "Maestro"
+         ],
+         "Empowered Text":"After use, refunds 1 AP this turn.",
+         "Image Number":33
+      },
+      {
+         "Name":"Dream Slip",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":3,
+         "Rules Text":"If a target does not have the most Fatigue among all other characters, they gain up to 4 stacks of Fatigue, stopping once they are tied for most. If they do have the most, they gain 1 stack of Fatigue.",
+         "Empowered Classes":[
+            "Drowser"
+         ],
+         "Empowered Text":"Reduce target's AP by 1. This effect cannot occur multiple turns in a row.",
+         "Image Number":34
+      },
+      {
+         "Name":"Dust Bomb",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Absolute",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":2,
+            "Max":3
+         },
+         "AP cost":2,
+         "Rules Text":"Inflicts the \"Disruption\" condition. **Discard after use.**",
+         "Empowered Classes":[
+            "Drowser"
+         ],
+         "Empowered Text":"Target also gains 1 stack of Fatigue.",
+         "Flavor Text":"*Hold your breath.*",
+         "Image Number":35
+      },
+      {
+         "Name":"Empathic Link",
+         "Type":"Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":2,
+         "Rules Text":"You look at target's hand and they look at yours. You may place up to one action card from the other person's hand onto your Action Tablet *(turn sideways to establish it's the opponent's card).* After a sideways action is used once, return it to its owner's hand. **Discard this card after use.**",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"Give your conditions to the opponent.",
+         "Image Number":36
+      },
+      {
+         "Name":"Enigma Blast",
+         "Type":"Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":3,
+         "Rules Text":"If opponent has any actions on their Tablet with an AP cost of 1 or fewer, choose one for them to discard *(X is considered 0)*. If this attack is guarded, **discard this card**.",
+         "Empowered Classes":[
+            "Magician"
+         ],
+         "Empowered Text":"You man reduce your AP by one to instead choose a card with an AP cost of 2.",
+         "Image Number":37
       }
    ]
 }

@@ -1,6 +1,5 @@
 # Vers-Ability
-
-## A game by Andrew DiLullo
+A game by Andrew DiLullo
 
 Vers-Ability is a two player arena based game in which characters fight for dominance and opportunity.
 

@@ -1,11 +1,11 @@
 {
-   "version": "0.0.5",
+   "version":"0.0.6",
    "cards":[
       {
          "Name":"Cleansing Tags",
          "Type":"Equipment",
          "Star Level":1,
-         "Rules Text":"**Your Tablet size increases by 1.** If you receive a Condition from an Action you successfully Guarded, immediatly cure it. As an Action, you may discard this from your Tablet to cure up to 2 conditions.",
+         "Rules Text":"**Your Tablet size increases by 1.** If you receive a Condition from an Action you successfully Guarded, immediately cure it. As an Action, you may discard this from your Tablet to cure up to 2 conditions.",
          "Flavor Text":"*The inscription on each tag reads \"Harmony\".*",
          "Image Number":1
       },
@@ -21,16 +21,16 @@
          "Name":"Power Bracelet",
          "Type":"Equipment",
          "Star Level":3,
-         "Rules Text":"All of your Physical Attack cards have +10 added to their base damage. This continues to affect them even if they temorarily change to \"Absolute\" attacks.",
+         "Rules Text":"All of your Physical Attack cards have +10 added to their base damage. This continues to affect them even if they temporarily change to \"Absolute\" attacks.",
          "Flavor Text":"*The strength it provides to the wearer would allow even children to throw boulders.*",
-		 "Image Number":3
+         "Image Number":3
       },
       {
          "Name":"Mage's Cloak",
          "Type":"Equipment",
          "Star Level":3,
          "Rules Text":"All of your Magical Attack cards have +10 added to their base damage. This continues to affect them even if they temporarily change to \"Absolute\" Attacks.",
-         "Flavor Text":"*The threads themselves were imbuded with concentrated magic before being careful woven together.*",
+         "Flavor Text":"*The threads themselves were imbued with concentrated magic before being careful woven together.*",
          "Image Number":4
       },
       {
@@ -38,7 +38,7 @@
          "Type":"Equipment",
          "Star Level":3,
          "Rules Text":"Reduce all Physical and Magical damage you take by 10.",
-         "Flavor Text":"*Most recivers mock the name, but none will deny it was this handy armament that led them all home.*",
+         "Flavor Text":"*Most receivers mock the name, but none will deny it was this handy armament that led them all home.*",
          "Image Number":5
       },
       {
@@ -46,7 +46,7 @@
          "Type":"Equipment",
          "Star Level":3,
          "Rules Text":"As an action, discard this card to reduce the cost of all actions this turn by 1 *(Minimum 0).*",
-         "Flavor Text":"*A complex arrangment of cubes, each holding a snall quantum of energy. If you turn it just right, it all pours out at once.*",
+         "Flavor Text":"*A complex arrangement of cubes, each holding a small quantum of energy. If you turn it just right, it all pours out at once.*",
          "Image Number":6
       },
       {
@@ -65,7 +65,7 @@
          "Flavor Text":"*Anyone that looks deep enough into it's voidlike core will see nothing but death and fear eternal.*",
          "Image Number":8
       },
-	  {
+      {
          "Name":"Riposte",
          "Type":"Reaction",
          "Reaction Type":"Physical Attack",
@@ -76,7 +76,7 @@
          "Name":"Counterspell",
          "Type":"Reaction",
          "Reaction Type":"Magical Attack",
-         "Rules Text":"Prevent all damage and additional effects you would suffer as teh result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
+         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
          "Image Number":10
       },
       {
@@ -87,7 +87,7 @@
          "Image Number":11
       },
       {
-         "Name":"Doge Roll",
+         "Name":"Dodge Roll",
          "Type":"Reaction",
          "Reaction Type":"Ranged Attack",
          "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Ranged Attack**. Afterwards, move 1 space towards the attacker if possible. Reduce your AP by 1.",
@@ -104,80 +104,24 @@
          "Name":"Peace of Mind",
          "Type":"Reaction",
          "Reaction Type":"Discard",
-         "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Suffle your hand back into your deck, then draw 1 card.",
+         "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Shuffle your hand back into your deck, then draw 1 card.",
          "Image Number":14
       },
       {
          "Name":"Negate",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"You Gaurd this attack if able. The opponent must discard that action if tehy otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
+         "Rules Text":"You Guard this attack if able. The opponent must discard that action if they otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
          "Image Number":15
       },
       {
          "Name":"Death Roulette",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"Your opponent Crits this attack and you do not Gaurd. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
+         "Rules Text":"Your opponent Crits this attack and you do not Guard. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
          "Image Number":16
       },
-	  {
-         "Name":"Riposte",
-         "Type":"Reaction",
-         "Reaction Type":"Physical Attack",
-         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Physical Attack**. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":9
-      },
       {
-         "Name":"Counterspell",
-         "Type":"Reaction",
-         "Reaction Type":"Magical Attack",
-         "Rules Text":"Prevent all damage and additional effects you would suffer as teh result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":10
-      },
-      {
-         "Name":"Backstep",
-         "Type":"Reaction",
-         "Reaction Type":"Melee Attack",
-         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Melee Attack**. Afterwards, move 1 space away from the attacker if possible. Reduce your AP by 1.",
-         "Image Number":11
-      },
-      {
-         "Name":"Doge Roll",
-         "Type":"Reaction",
-         "Reaction Type":"Ranged Attack",
-         "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Ranged Attack**. Afterwards, move 1 space towards the attacker if possible. Reduce your AP by 1.",
-         "Image Number":12
-      },
-      {
-         "Name":"Keen Awareness",
-         "Type":"Reaction",
-         "Reaction Type":"Sabotage",
-         "Rules Text":"Prevent all effects from a **Sabotage Action** that targets you. The opponent must discard that action if they otherwise wouldn't. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":13
-      },
-      {
-         "Name":"Peace of Mind",
-         "Type":"Reaction",
-         "Reaction Type":"Discard",
-         "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Suffle your hand back into your deck, then draw 1 card.",
-         "Image Number":14
-      },
-      {
-         "Name":"Negate",
-         "Type":"Reaction",
-         "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"You Gaurd this attack if able. The opponent must discard that action if tehy otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
-         "Image Number":15
-      },
-      {
-         "Name":"Death Roulette",
-         "Type":"Reaction",
-         "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"Your opponent Crits this attack and you do not Gaurd. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
-         "Image Number":16
-      },
-	  {
          "Name":"Agile Maneuver",
          "Type":"Action",
          "Action Type":"Attack",
@@ -223,7 +167,7 @@
          },
          "AP cost":"X",
          "Rules Text":"**X is the remainder of your AP.** Discard your hand and your Action Tablet. Draw cards equal to the amount discarded, up to 4. You may then put any Action or Equipment with a Star Level of 4 or less onto your Action Tablet.",
-         "Flavor Text":"*\"Evrything I was, everything I knew...it was a lie.\"*",
+         "Flavor Text":"*\"Everything I was, everything I knew...it was a lie.\"*",
          "Image Number":19
       },
       {
@@ -246,7 +190,7 @@
          "Flavor Text":"*Don't throw unless you're ready to catch.*",
          "Image Number":20
       },
-	  {
+      {
          "Name":"Astral Guidance",
          "Type":"Action",
          "Action Type":"Focus",
@@ -361,7 +305,7 @@
             "Type":"Melee"
          },
          "AP cost":3,
-         "Rules Text":"Damage +10 if target is ***Exausted***. Damage +10 if the target has a Hunter's Mark.",
+         "Rules Text":"Damage +10 if target is ***Exhausted***. Damage +10 if the target has a Hunter's Mark.",
          "Empowered Classes":[
             "Warrior",
             "Hunter"
@@ -378,7 +322,7 @@
             "Type":"Melee"
          },
          "AP cost":3,
-         "Rules Text":"Can only target a character you haven't damaged this turn. Opponent makes a Guard Roll. If they succeed the Gaurd Roll, nothing happens. If they fail, you and the other player may not directly each other until your next turn. In either case, **discard after use**.",
+         "Rules Text":"Can only target a character you haven't damaged this turn. Opponent makes a Guard Roll. If they succeed the Guard Roll, nothing happens. If they fail, you and the other player may not directly each other until your next turn. In either case, **discard after use**.",
          "Empowered Classes":[
             "Rogue"
          ],
@@ -395,7 +339,7 @@
             "Type":"Melee"
          },
          "AP cost":4,
-         "Rules Text":"Target has 1 fewwe movement and 2 fewer AP next turn.",
+         "Rules Text":"Target has 1 fewer movement and 2 fewer AP next turn.",
          "Empowered Classes":[
             "Rogue"
          ],
@@ -417,7 +361,7 @@
             "Acolyte"
          ],
          "Empowered Text":"Any character adjacent to you loses 10 health, plus another 10 for each condition you cured.",
-         "Flavor Text":"*\"Belive in the fire. Let it cleanse your impurities.\"*",
+         "Flavor Text":"*\"Believe in the fire. Let it cleanse your impurities.\"*",
          "Image Number":30
       },
       {
@@ -436,7 +380,7 @@
          "Empowered Text":"For each Equipment or Reaction that was discarded, you may draw a card.",
          "Image Number":31
       },
-	  {
+      {
          "Name":"Deadly Slash",
          "Type":"Action",
          "Action Type":"Attack",
@@ -449,7 +393,7 @@
          "Empowered Classes":[
             "Warrior"
          ],
-         "Empowered Text":"On Crit, deals +20 damage instead of +10. Ignores opponet's Equipment reductions.",
+         "Empowered Text":"On Crit, deals +20 damage instead of +10. Ignores opponent's Equipment reductions.",
          "Flavor Text":"*\"I mean, if you swing hard enough...\"*",
          "Image Number":32
       },
@@ -506,7 +450,7 @@
          "Image Number":35
       },
       {
-         "Name":"Empathic Link",
+         "Name":"Emphathic Link",
          "Type":"Action",
          "Action Type":"Focus",
          "Focus Type":"Sabotage",
@@ -542,7 +486,7 @@
          "Empowered Text":"You man reduce your AP by one to instead choose a card with an AP cost of 2.",
          "Image Number":37
       },
-	  {
+      {
          "Name":"Equilibrium",
          "Type":"Action",
          "Action Type":"Focus",
@@ -1243,7 +1187,7 @@
          "Flavor Text":"*Hypnotism works best on the suggestible.*",
          "Image Number":76
       },
-	  {
+      {
          "Name":"Warrior",
          "Type":"Class",
          "Health":150,
@@ -1304,7 +1248,7 @@
          ],
          "Class Ability":{
             "Name":"Dirty Fighter",
-            "Rules Text":"**Cirt rate +1** against opponents that are ***Exhausted***. If you cause an opponent to discard any cards, they gain 1 stack of fatigue unless they are ***Exhausted***. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Rogue\"**"
+            "Rules Text":"**Crit rate +1** against opponents that are ***Exhausted***. If you cause an opponent to discard any cards, they gain 1 stack of fatigue unless they are ***Exhausted***. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Rogue\"**"
          },
          "Image Number":5
       },
@@ -1330,7 +1274,7 @@
          ],
          "Class Ability":{
             "Name":"On the Hunt",
-            "Rules Text":"One actions place a Hunter's Mark. Only one target can have the Hunter's Mark; marking another target replaces the original. When you target a character with the Hunter's Mark they have **Guard Rate -1** and other benifits may occur based on the action. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Archer\"**"
+            "Rules Text":"One actions place a Hunter's Mark. Only one target can have the Hunter's Mark; marking another target replaces the original. When you target a character with the Hunter's Mark they have **Guard Rate -1** and other benefits may occur based on the action. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Archer\"**"
          },
          "Image Number":7
       },
@@ -1466,7 +1410,7 @@
          },
          "Image Number":17
       },
-	  {
+      {
          "Name":"Bash",
          "Type":"Starting Action",
          "Action Type":"Attack",

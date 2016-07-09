@@ -1,5 +1,5 @@
 {
-   "version": "0.0.3",
+   "version": "0.0.4",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -1242,6 +1242,229 @@
          "Empowered Text":"Instead of +20 damage, you may have the target gain 2 stacks of Fatigue.",
          "Flavor Text":"*Hypnotism works best on the suggestible.*",
          "Image Number":76
+      },
+	  {
+         "Name":"Warrior",
+         "Type":"Class",
+         "Health":150,
+         "Starting Actions":[
+            "Bash"
+         ],
+         "Class Ability":{
+            "Name":"Physical Prowess",
+            "Rules Text":"Anytime you use a \"Physical\" Attack action, gain **Crit Rate +1** for that action. *(Raise the result of your Critical Hit roll by 1.)*"
+         },
+         "Image Number":1
+      },
+      {
+         "Name":"Rogue",
+         "Type":"Class",
+         "Health":140,
+         "Starting Actions":[
+            "Runic Shiv"
+         ],
+         "Class Ability":{
+            "Name":"Close Quarters",
+            "Rules Text":"Anytime you use a \"Melee\" Attack action, gain **Crit Rate +1** for that action. *(Raise the result of your Critical Hit roll by 1.)*"
+         },
+         "Image Number":2
+      },
+      {
+         "Name":"Magician",
+         "Type":"Class",
+         "Health":130,
+         "Starting Actions":[
+            "Burst"
+         ],
+         "Class Ability":{
+            "Name":"Magic Affinity",
+            "Rules Text":"Anytime you use a \"Magical\" Attack action, gain **Crit Rate +1** for that action. *(Raise the result of your Critical Hit roll by 1.)*"
+         },
+         "Image Number":3
+      },
+      {
+         "Name":"Archer",
+         "Type":"Class",
+         "Health":130,
+         "Starting Actions":[
+            "Arrow Shot"
+         ],
+         "Class Ability":{
+            "Name":"Steady Aim",
+            "Rules Text":"Anytime you use a \"Ranged\" Attack action, gain **Crit Rate +1** for that action. *(Raise the result of your Critical Hit roll by 1.)*"
+         },
+         "Image Number":4
+      },
+      {
+         "Name":"Brigand",
+         "Type":"Class",
+         "Health":130,
+         "Starting Actions":[
+            "Mug"
+         ],
+         "Class Ability":{
+            "Name":"Dirty Fighter",
+            "Rules Text":"**Cirt rate +1** against opponents that are ***Exhausted***. If you cause an opponent to discard any cards, they gain 1 stack of fatigue unless they are ***Exhausted***. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Rogue\"**"
+         },
+         "Image Number":5
+      },
+      {
+         "Name":"Channeler",
+         "Type":"Class",
+         "Health":140,
+         "Starting Actions":[
+            "Arcane Blade"
+         ],
+         "Class Ability":{
+            "Name":"Dual Energies",
+            "Rules Text":"**Crit Rate +1** on all your attacks as long as you have at least one Physical and Magical attack on your tablet *(2 cards min.)* Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Magician\"**"
+         },
+         "Image Number":6
+      },
+      {
+         "Name":"Hunter",
+         "Type":"Class",
+         "Health":120,
+         "Starting Actions":[
+            "Marking Prey"
+         ],
+         "Class Ability":{
+            "Name":"On the Hunt",
+            "Rules Text":"One actions place a Hunter's Mark. Only one target can have the Hunter's Mark; marking another target replaces the original. When you target a character with the Hunter's Mark they have **Guard Rate -1** and other benifits may occur based on the action. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Archer\"**"
+         },
+         "Image Number":7
+      },
+      {
+         "Name":"Saboteur",
+         "Type":"Class",
+         "Health":120,
+         "Starting Actions":[
+            "Stun"
+         ],
+         "Class Ability":{
+            "Name":"Power Thief",
+            "Rules Text":"If you successfully crit on an action that reduces **AP/Movement** of the target, **increase your AP by 1**. Once per turn, you may receive action benefits as if your class was **\"Rogue\"** or **\"Magician\"**"
+         },
+         "Image Number":8
+      },
+      {
+         "Name":"Scout",
+         "Type":"Class",
+         "Health":120,
+         "Starting Actions":[
+            "Trip Wire",
+            "Scouting"
+         ],
+         "Class Ability":{
+            "Name":"Ground Control",
+            "Rules Text":"Your Trap Limit is increased to 2. **(Standard Trap Limit is 1)* Once per turn, you may receive action benefits as if your class was **\"Rogue\"** or **\"Archer\"**"
+         },
+         "Image Number":9
+      },
+      {
+         "Name":"Spellslinger",
+         "Type":"Class",
+         "Health":120,
+         "Starting Actions":[
+            "Orb Shot"
+         ],
+         "Class Ability":{
+            "Name":"Spell Cycling",
+            "Rules Text":"If you discard an action from your Tablet on your turn, you may reduce your AP by 1 to draw a card. Once per turn, you may receive action benefits as if your class was **\"Magician\"** or **\"Archer\"**"
+         },
+         "Image Number":10
+      },
+      {
+         "Name":"Sentinel",
+         "Type":"Class",
+         "Health":170,
+         "Starting Actions":[
+            "Ready Reversal"
+         ],
+         "Class Ability":{
+            "Name":"Stalwart",
+            "Rules Text":"As long as your Tablet is full, **Guard Rate +1** and **Crit Rate -1**. *Raise the dice result by 1 on Guards, and lower by 1 on Critical Hits)* Actions and abilities from other players cannot force you to move unless you allow it."
+         },
+         "Image Number":11
+      },
+      {
+         "Name":"Maestro",
+         "Type":"Class",
+         "Health":130,
+         "Starting Actions":[
+            "Power Chord"
+         ],
+         "Class Ability":{
+            "Name":"Major Scale",
+            "Rules Text":"If you use 3 actions in a turn with an *ascending* or *descending* order, increase your AP by 1 at the end of the turn. *(If your three actions cost 0, 1, and 3 in that order, that would be ascending)*"
+         },
+         "Image Number":12
+      },
+      {
+         "Name":"Dragoon",
+         "Type":"Class",
+         "Health":120,
+         "Starting Actions":[
+            "Talon Strike"
+         ],
+         "Class Ability":{
+            "Name":"Cloud Vault",
+            "Rules Text":"As an action, you may spend 1 movement and 2 AP to move 2 spaces through a small obstacle, or 3 AP for a large obstacle. Then your next attack action this turn has **Crit Rate +1**. You cannot use this action while Exhausted, or under the influence of a Condition that restricts movement. *(EX: Frozen)*"
+         },
+         "Image Number":13
+      },
+      {
+         "Name":"Drowser",
+         "Type":"Class",
+         "Health":140,
+         "Starting Actions":[
+            "Shut-Eye"
+         ],
+         "Class Ability":{
+            "Name":"Aura of Lethargy",
+            "Rules Text":"The first time you Crit against a character each turn, they they gain 1 stack of Fatigue. If another character causes you to gain Fatigue, they also gain 1 stack of Fatigue."
+         },
+         "Image Number":14
+      },
+      {
+         "Name":"Acolyte",
+         "Type":"Class",
+         "Health":160,
+         "Starting Actions":[
+            "Conviction"
+         ],
+         "Class Ability":{
+            "Name":"Faith Healing",
+            "Rules Text":"Once per turn, you may pay 10 health and coose an Active Condition on you. Either cure it, or inflict it on an adjacent character. Whenever you cure a Condition, it remains cured for 2 turns instead of 1."
+         },
+         "Image Number":15
+      },
+      {
+         "Name":"Architect",
+         "Type":"Class",
+         "Health":130,
+         "Starting Actions":[
+            "Design Flaw",
+            "Rough Blueprint"
+         ],
+         "Class Ability":{
+            "Name":"Optimal Planning",
+            "Rules Text":"**Deck Size +3. Normal Deck Restrictions still apply.** If you would draw a card from your deck *(after setup)*, instead look at the top 2 cards, drawing 1 and discarding the other."
+         },
+         "Image Number":16
+      },
+      {
+         "Name":"Champion",
+         "Type":"Class",
+         "Health":100,
+         "Starting Actions":[
+            "Boss Rush"
+         ],
+         "Class Ability":{
+            "Name":"Army of One",
+            "Rules Text":"Adapting an Equipment card to your Tablet costs 1 fewer AP. You may receive action benefits as if you were **Any Other Class**."
+         },
+         "Image Number":17
       }
    ]
 }

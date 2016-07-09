@@ -1,5 +1,5 @@
 {
-   "version": "0.0.4",
+   "version": "0.0.5",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -1465,6 +1465,299 @@
             "Rules Text":"Adapting an Equipment card to your Tablet costs 1 fewer AP. You may receive action benefits as if you were **Any Other Class**."
          },
          "Image Number":17
+      },
+	  {
+         "Name":"Bash",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Starting Class":"Warrior",
+         "Flavor Text":"*\"You think punching people is dumb? Well, look at where being smart got ya.\"*",
+         "Image Number":1
+      },
+      {
+         "Name":"Runic Shiv",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Starting Class":"Rogue",
+         "Flavor Text":"*The etching leaves behind a nice burning sensation.*",
+         "Image Number":2
+      },
+      {
+         "Name":"Burst",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":2,
+         "Flavor Text":"*A simple yet flashy spell for the early magician, if only to keep them interested in learning \"real\" magic.*",
+         "Image Number":3
+      },
+      {
+         "Name":"Arrow Shot",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":2,
+         "Starting Class":"Archer",
+         "Flavor Text":"*The Archer's bread and butter. As simple as ready, aim, and fire.*",
+         "Image Number":4
+      },
+      {
+         "Name":"Mug",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Starting Class":"Brigand",
+         "Rules Text":"Target discards a card from their hand. On Crit, you may draw a card then discard a card.",
+         "Flavor Text":"*Insult to Injury.*",
+         "Image Number":5
+      },
+      {
+         "Name":"Arcane Blade",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Absolute",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Starting Class":"Channeler",
+         "Rules Text":"This attack is considered both Magical and Physical for the sake of bonuses *(EX: Equipment)*",
+         "Flavor Text":"*A deadly balance of magic and steel.*",
+         "Image Number":6
+      },
+      {
+         "Name":"Marking Prey",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":2,
+         "Starting Class":"Huntter",
+         "Rules Text":"**Crit Rate +2**, or **+3** if adjacent to target. Instead of dealing bonus damage on Crit, applies a Hunter's Mark. If the target already has a Hunter's Mark, their first action targeting you on their next turn has **Crit Rate -1**.",
+         "Flavor Text":"*\"Just die and save me the trouble.\"*",
+         "Image Number":7
+      },
+      {
+         "Name":"Stun",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":2,
+         "Starting Class":"Saboteur",
+         "Rules Text":"Target has 1 fewer movement on their next turn. On crit, loss is increased to 2.",
+         "Flavor Text":"*It's not all that destructive, but the feeling it leaves never truely fades.*",
+         "Image Number":8
+      },
+      {
+         "Name":"Trip Wire",
+         "Type":"Starting Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Starting Class":"Scout",
+         "Rules Text":"Place a Trip Wire Trap on the target empty space. If a player ever lands on the token, remove it and that player loses 10 health.",
+         "Flavor Text":"*\"Just don't forget where you put them.\"*",
+         "Image Number":9
+      },
+      {
+         "Name":"Scouting",
+         "Type":"Starting Action",
+         "Action Type":"Focus",
+         "Focus Type":"Sabotage",
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":4
+         },
+         "AP cost":1,
+         "Starting Class":"Scout",
+         "Rules Text":"Target reveals their hand to you.",
+         "Flavor Text":"*\"It sure helps to be informed.\"*",
+         "Image Number":10
+      },
+      {
+         "Name":"Orb Shot",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":1,
+         "Starting Class":"Spellslinger",
+         "Rules Text":"Put a token on this card. When this card has 2 tokens, discard it.",
+         "Flavor Text":"*A cluster of tossible magic, just throw it and watch it accelerate and explode.*",
+         "Image Number":11
+      },
+      {
+         "Name":"Ready Reversal",
+         "Type":"Starting Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":2,
+         "Starting Class":"Sentinel",
+         "Rules Text":"Until your next turn, the next source of damage you take deals 10 less damage. Tap this card to signify the effect, untap it when it wears off. If the source is an opponent that is adjacent to you, they take 10 **Absolute** damage.",
+         "Flavor Text":"*Every shield is held by strong arms and a strong will.*",
+         "Image Number":12
+      },
+      {
+         "Name":"Power Chord",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":0,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":"X",
+         "Starting Class":"Maestro",
+         "Rules Text":"**Choose a number between 0-2 for X.** Damage +10 for each AP spent on this action. **This attack affects every space within its range.**",
+         "Flavor Text":"*Music affects everyone in different ways.*",
+         "Image Number":13
+      },
+      {
+         "Name":"Talon Strike",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":2,
+            "Max":2
+         },
+         "AP cost":1,
+         "Starting Class":"Dragoon",
+         "Rules Text":"**May only target diagonally** If used after a movement-related action, damage +10. *(Either caused you to move or granted extra movement)*",
+         "Flavor Text":"*The spear can seem awkward, but the reach is always a plus.*",
+         "Image Number":14
+      },
+      {
+         "Name":"Shut-Eye",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Magical",
+         "Damage":0,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":3
+         },
+         "AP cost":1,
+         "Starting Class":"Drowser",
+         "Rules Text":"**Crit Rate +2.** On Crit, target gains 1 stack of Fatigue unless they are ***Exhausted*** or have already gotten any stacks of Fatigue this turn.",
+         "Flavor Text":"*\"Sleep my child. Let me steal your dreams.\"*",
+         "Image Number":15
+      },
+      {
+         "Name":"Conviction",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":20,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":1
+         },
+         "AP cost":2,
+         "Starting Class":"Acolyte",
+         "Rules Text":"You receive bonuses for having conditions: **Burning** - Max Range increased my 2. **Poisoned** - Damage +10 **Blinded** - Either draw a card, or recover 10 health. **Other - Crit Rate +2** per additional condition.",
+         "Flavor Text":"*Faith may break the body but the spirit grows ever stronger.*",
+         "Image Number":16
+      },
+      {
+         "Name":"Design Flaw",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Physical",
+         "Damage":10,
+         "Range":{
+            "Type":"Ranged",
+            "Min":1,
+            "Max":2
+         },
+         "AP cost":1,
+         "Starting Class":"Architect",
+         "Rules Text":"If target has no cards in hand, you may draw a card. If target has no open space on their Tablet, you may use \"Adapt\" one additional time this turn. If target's discard has at least 3 cards, they discard the top card of their deck.",
+         "Image Number":17
+      },
+      {
+         "Name":"Rough Blueprint",
+         "Type":"Starting Action",
+         "Action Type":"Focus",
+         "Focus Type":"Empower",
+         "Range":{
+            "Type":"Self"
+         },
+         "AP cost":1,
+         "Starting Class":"Architect",
+         "Rules Text":"Draw a card, then discard a card.",
+         "Flavor Text":"*Every attempt gets closer to a real solution.*",
+         "Image Number":18
+      },
+      {
+         "Name":"Boss Rush",
+         "Type":"Starting Action",
+         "Action Type":"Attack",
+         "Attack Type":"Absolute",
+         "Damage":10,
+         "Range":{
+            "Type":"Melee"
+         },
+         "AP cost":1,
+         "Starting Class":"Champion",
+         "Rules Text":"Damage +20 if the opponent either has more health than you or is also \"The Champion\".",
+         "Flavor Text":"*A true champion always rises to the occasion.*",
+         "Image Number":19
       }
    ]
 }

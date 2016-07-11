@@ -1,5 +1,5 @@
 {
-   "version":"0.0.6",
+   "version":"0.1.0",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -125,7 +125,7 @@
          "Name":"Agile Maneuver",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":0,
          "Range":{
             "Type":"Melee"
@@ -143,7 +143,7 @@
          "Name":"Ambush",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":30,
          "Range":{
             "Type":"Melee"
@@ -174,7 +174,7 @@
          "Name":"Arcane Boomerang",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -194,7 +194,7 @@
          "Name":"Astral Guidance",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -210,7 +210,7 @@
          "Name":"Backstab",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":30,
          "Range":{
             "Type":"Melee"
@@ -227,7 +227,7 @@
          "Name":"Bear Trap",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -244,7 +244,7 @@
          "Name":"Blind Faith",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":30,
          "Range":{
             "Type":"Melee"
@@ -262,7 +262,7 @@
          "Name":"Challenge",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -280,7 +280,7 @@
          "Name":"Coated Blade",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -299,7 +299,7 @@
          "Name":"Continuous Assault",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -317,7 +317,7 @@
          "Name":"Crafty Negotiation",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -333,7 +333,7 @@
          "Name":"Crippling Strike",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -351,7 +351,7 @@
          "Name":"Crucible",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -368,7 +368,7 @@
          "Name":"Cutpurse",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -384,7 +384,7 @@
          "Name":"Deadly Slash",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":30,
          "Range":{
             "Type":"Melee"
@@ -401,7 +401,7 @@
          "Name":"Drastic Measure",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -417,7 +417,7 @@
          "Name":"Dream Slip",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -433,7 +433,7 @@
          "Name":"Dust Bomb",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -453,7 +453,7 @@
          "Name":"Emphathic Link",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -471,7 +471,7 @@
          "Name":"Enigma Blast",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -490,7 +490,7 @@
          "Name":"Equilibrium",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -506,7 +506,7 @@
          "Name":"First Aid",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Heal",
+         "Action Subtype":"Heal",
          "Heal":20,
          "Range":{
             "Type":"Ranged",
@@ -522,7 +522,7 @@
          "Name":"Focus Shot",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -541,7 +541,7 @@
          "Name":"Forced Migraine",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":0,
          "Range":{
             "Type":"Ranged",
@@ -562,7 +562,7 @@
          "Name":"Grand Finale",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":40,
          "Range":{
             "Type":"Ranged",
@@ -582,7 +582,7 @@
          "Name":"Grappling Hook",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -601,7 +601,7 @@
          "Name":"Harness Cut",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -620,7 +620,7 @@
          "Name":"Icy Wind",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -640,7 +640,7 @@
          "Name":"Identify Weakpoint",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -659,7 +659,7 @@
          "Name":"Inner Strength",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -676,7 +676,7 @@
          "Name":"Keen Vision",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -693,7 +693,7 @@
          "Name":"Knockdown",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Melee"
@@ -710,7 +710,7 @@
          "Name":"Lightning Spear",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -730,7 +730,7 @@
          "Name":"Lockdown",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -746,7 +746,7 @@
          "Name":"Longshot",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -765,7 +765,7 @@
          "Name":"Magic Missile",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":30,
          "Range":{
             "Type":"Ranged",
@@ -785,7 +785,7 @@
          "Name":"Plague Field",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":0,
@@ -804,7 +804,7 @@
          "Name":"Poison Bomb",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -823,7 +823,7 @@
          "Name":"Reaper's Circle",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -840,7 +840,7 @@
          "Name":"Ruin",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -854,7 +854,7 @@
          "Name":"Rush of Knowledge",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -871,7 +871,7 @@
          "Name":"Searing Touch",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":30,
          "Range":{
             "Type":"Melee"
@@ -889,7 +889,7 @@
          "Name":"Shadow Strike",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -907,7 +907,7 @@
          "Name":"Sleep Dart",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":0,
          "Range":{
             "Type":"Ranged",
@@ -927,7 +927,7 @@
          "Name":"Smite",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":30,
          "Range":{
             "Type":"Ranged",
@@ -948,7 +948,7 @@
          "Name":"Sonic Alarm",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -967,7 +967,7 @@
          "Name":"Sprint",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -980,7 +980,7 @@
          "Name":"Stone Skin",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -997,7 +997,7 @@
          "Name":"Sunvial",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -1018,7 +1018,7 @@
          "Name":"Survival Tactics",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -1035,7 +1035,7 @@
          "Name":"Swing of Destiny",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Melee"
@@ -1052,7 +1052,7 @@
          "Name":"Tackle",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1066,7 +1066,7 @@
          "Name":"Take Cover",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Melee"
          },
@@ -1083,7 +1083,7 @@
          "Name":"Throwing Axe",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":30,
          "Range":{
             "Type":"Ranged",
@@ -1103,7 +1103,7 @@
          "Name":"Tonal Shift",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -1121,7 +1121,7 @@
          "Name":"Trap Sense",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged Global"
          },
@@ -1137,7 +1137,7 @@
          "Name":"Vacuum Force",
          "Type":"Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":2,
@@ -1156,7 +1156,7 @@
          "Name":"Variance",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":0,
          "Range":{
             "Type":"Melee"
@@ -1173,7 +1173,7 @@
          "Name":"Willbreaker",
          "Type":"Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1414,7 +1414,7 @@
          "Name":"Bash",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1428,7 +1428,7 @@
          "Name":"Runic Shiv",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1442,7 +1442,7 @@
          "Name":"Burst",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -1457,7 +1457,7 @@
          "Name":"Arrow Shot",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -1473,7 +1473,7 @@
          "Name":"Mug",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Melee"
@@ -1488,7 +1488,7 @@
          "Name":"Arcane Blade",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1503,7 +1503,7 @@
          "Name":"Marking Prey",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -1520,7 +1520,7 @@
          "Name":"Stun",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Melee"
@@ -1535,7 +1535,7 @@
          "Name":"Trip Wire",
          "Type":"Starting Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Melee"
          },
@@ -1549,7 +1549,7 @@
          "Name":"Scouting",
          "Type":"Starting Action",
          "Action Type":"Focus",
-         "Focus Type":"Sabotage",
+         "Action Subtype":"Sabotage",
          "Range":{
             "Type":"Ranged",
             "Min":1,
@@ -1565,7 +1565,7 @@
          "Name":"Orb Shot",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -1582,7 +1582,7 @@
          "Name":"Ready Reversal",
          "Type":"Starting Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -1596,7 +1596,7 @@
          "Name":"Power Chord",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":0,
          "Range":{
             "Type":"Melee"
@@ -1611,7 +1611,7 @@
          "Name":"Talon Strike",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -1628,7 +1628,7 @@
          "Name":"Shut-Eye",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Magical",
+         "Action Subtype":"Magical",
          "Damage":0,
          "Range":{
             "Type":"Ranged",
@@ -1645,7 +1645,7 @@
          "Name":"Conviction",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":20,
          "Range":{
             "Type":"Ranged",
@@ -1662,7 +1662,7 @@
          "Name":"Design Flaw",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Physical",
+         "Action Subtype":"Physical",
          "Damage":10,
          "Range":{
             "Type":"Ranged",
@@ -1678,7 +1678,7 @@
          "Name":"Rough Blueprint",
          "Type":"Starting Action",
          "Action Type":"Focus",
-         "Focus Type":"Empower",
+         "Action Subtype":"Empower",
          "Range":{
             "Type":"Self"
          },
@@ -1692,7 +1692,7 @@
          "Name":"Boss Rush",
          "Type":"Starting Action",
          "Action Type":"Attack",
-         "Attack Type":"Absolute",
+         "Action Subtype":"Absolute",
          "Damage":10,
          "Range":{
             "Type":"Melee"

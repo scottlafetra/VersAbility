@@ -70,56 +70,56 @@
          "Type":"Reaction",
          "Reaction Type":"Physical Attack",
          "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Physical Attack**. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":9
+         "Image Number":1
       },
       {
          "Name":"Counterspell",
          "Type":"Reaction",
          "Reaction Type":"Magical Attack",
          "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Magical Attack**. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":10
+         "Image Number":2
       },
       {
          "Name":"Backstep",
          "Type":"Reaction",
          "Reaction Type":"Melee Attack",
          "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Melee Attack**. Afterwards, move 1 space away from the attacker if possible. Reduce your AP by 1.",
-         "Image Number":11
+         "Image Number":3
       },
       {
          "Name":"Dodge Roll",
          "Type":"Reaction",
          "Reaction Type":"Ranged Attack",
          "Rules Text":"Prevent all damage and additional effects you would suffer as the result of a **Ranged Attack**. Afterwards, move 1 space towards the attacker if possible. Reduce your AP by 1.",
-         "Image Number":12
+         "Image Number":4
       },
       {
          "Name":"Keen Awareness",
          "Type":"Reaction",
          "Reaction Type":"Sabotage",
          "Rules Text":"Prevent all effects from a **Sabotage Action** that targets you. The opponent must discard that action if they otherwise wouldn't. In addition to this card, you must also discard another card from your hand if able.",
-         "Image Number":13
+         "Image Number":5
       },
       {
          "Name":"Peace of Mind",
          "Type":"Reaction",
          "Reaction Type":"Discard",
          "Rules Text":"If you discarded any number of cards this turn, shuffle any number of those cards back into your deck. Shuffle your hand back into your deck, then draw 1 card.",
-         "Image Number":14
+         "Image Number":6
       },
       {
          "Name":"Negate",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
          "Rules Text":"**Perfect Guard**. The opponent must discard that action if they otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
-         "Image Number":15
+         "Image Number":7
       },
       {
          "Name":"Death Roulette",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
          "Rules Text":"Your opponent's attack has **Definite Critical**, don;t roll for Guard. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
-         "Image Number":16
+         "Image Number":8
       },
       {
          "Name":"Agile Maneuver",
@@ -140,7 +140,7 @@
          ],
          "Empowered Text":"Damage +10.",
          "Flavor Text":"*\"We each have our strengths. I tend to disregard gravity.\"*",
-         "Image Number":17
+         "Image Number":1
       },
       {
          "Name":"Ambush",
@@ -162,7 +162,7 @@
          ],
          "Empowered Text":"Target also discards a card.",
          "Flavor Text":"*\"For my patience, the perfect reward.\"*",
-         "Image Number":18
+         "Image Number":2
       },
       {
          "Name":"Apocalypse",
@@ -174,7 +174,7 @@
          "AP cost":"X",
          "Rules Text":"**X is the remainder of your AP.** Discard your hand and your Action Tablet. Draw cards equal to the amount discarded, up to 4. You may then put any Action or Equipment with a Star Level of 4 or less onto your Action Tablet.",
          "Flavor Text":"*\"Everything I was, everything I knew...it was a lie.\"*",
-         "Image Number":19
+         "Image Number":3
       },
       {
          "Name":"Arcane Boomerang",
@@ -197,7 +197,7 @@
          ],
          "Empowered Text":"**Crit Rate +2.** On crit, refunds 1 AP for this turn.",
          "Flavor Text":"*Don't throw unless you're ready to catch.*",
-         "Image Number":20
+         "Image Number":4
       },
       {
          "Name":"Astral Guidance",
@@ -215,7 +215,7 @@
             "Magician"
          ],
          "Empowered Text":"You may instead put the chosen card in your hand, but you will then have to discard a card.",
-         "Image Number":21
+         "Image Number":5
       },
       {
          "Name":"Backstab",
@@ -235,7 +235,7 @@
             "Rogue"
          ],
          "Empowered Text":"Choose one: Target gains a stack of Fatigue, OR cure all positive conditions on them, OR they can only use one action from their Action Tablet next turn.",
-         "Image Number":22
+         "Image Number":6
       },
       {
          "Name":"Bear Trap",
@@ -254,7 +254,7 @@
             "Scout"
          ],
          "Empowered Text":"Whenever a player steps on a Bear Trap, they must show you a card in their hand at random.",
-         "Image Number":23
+         "Image Number":7
       },
       {
          "Name":"Blind Faith",
@@ -275,7 +275,7 @@
          ],
          "Empowered Text":"You may inflict the \"Blinded\" status on yourself before making the Crit Roll.",
          "Flavor Text":"*\"You may doubt your eyes, but never doubt your heart.\"*",
-         "Image Number":24
+         "Image Number":8
       },
       {
          "Name":"Challenge",
@@ -295,7 +295,7 @@
             "Sentinel"
          ],
          "Empowered Text":"The first time you guard one of that player's actions next turn, they must discard it.",
-         "Image Number":25
+         "Image Number":9
       },
       {
          "Name":"Coated Blade",
@@ -317,7 +317,7 @@
          ],
          "Empowered Text":"Choose One: Target also has 1 fewer AP next turn OR **Crit Rate +4** instead of **+1**.",
          "Flavor Text":"*For best results, we recommend placing under the skin.*",
-         "Image Number":26
+         "Image Number":10
       },
       {
          "Name":"Continuous Assault",
@@ -338,7 +338,7 @@
             "Hunter"
          ],
          "Empowered Text":"If target had 1 or more Fatigue or a Hunter's Mark, they gain a **\"Disruption\"** condition. If not, they gain 1 Fatigue, plus a Hunter's Mark if you are the **Hunter**.",
-         "Image Number":27
+         "Image Number":11
       },
       {
          "Name":"Crafty Negotiation",
@@ -356,7 +356,7 @@
             "Rogue"
          ],
          "Empowered Text":"If target succeeds the Guard Roll, reduce their AP by 1.",
-         "Image Number":28
+         "Image Number":12
       },
       {
          "Name":"Crippling Strike",
@@ -377,7 +377,7 @@
          ],
          "Empowered Text":"**Crit Rate +1** On Crit, inflicts the **\"Disruption\"** status.",
          "Flavor Text":"*\"Fighters and champions we may be, but we still bleed like people.\"*",
-         "Image Number":29
+         "Image Number":13
       },
       {
          "Name":"Crucible",
@@ -396,7 +396,7 @@
          ],
          "Empowered Text":"Any character adjacent to you loses 10 health, plus another 10 for each condition you cured.",
          "Flavor Text":"*\"Believe in the fire. Let it cleanse your impurities.\"*",
-         "Image Number":30
+         "Image Number":14
       },
       {
          "Name":"Cutpurse",
@@ -414,7 +414,7 @@
             "Rogue"
          ],
          "Empowered Text":"For each Equipment or Reaction that was discarded, you may draw a card.",
-         "Image Number":31
+         "Image Number":15
       },
       {
          "Name":"Deadly Slash",
@@ -434,7 +434,7 @@
          ],
          "Empowered Text":"On Crit, deals +20 damage instead of +10. Ignores opponent's Equipment reductions.",
          "Flavor Text":"*\"I mean, if you swing hard enough...\"*",
-         "Image Number":32
+         "Image Number":16
       },
       {
          "Name":"Drastic Measure",
@@ -452,7 +452,7 @@
             "Maestro"
          ],
          "Empowered Text":"After use, refunds 1 AP this turn.",
-         "Image Number":33
+         "Image Number":17
       },
       {
          "Name":"Dream Slip",
@@ -470,7 +470,7 @@
             "Drowser"
          ],
          "Empowered Text":"Reduce target's AP by 1. This effect cannot occur multiple turns in a row.",
-         "Image Number":34
+         "Image Number":18
       },
       {
          "Name":"Dust Bomb",
@@ -493,7 +493,7 @@
          ],
          "Empowered Text":"Target also gains 1 stack of Fatigue.",
          "Flavor Text":"*Hold your breath.*",
-         "Image Number":35
+         "Image Number":19
       },
       {
          "Name":"Emphathic Link",
@@ -513,7 +513,7 @@
             "Magician"
          ],
          "Empowered Text":"Give your conditions to the opponent.",
-         "Image Number":36
+         "Image Number":20
       },
       {
          "Name":"Enigma Blast",
@@ -535,7 +535,7 @@
             "Magician"
          ],
          "Empowered Text":"You man reduce your AP by one to instead choose a card with an AP cost of 2.",
-         "Image Number":37
+         "Image Number":21
       },
       {
          "Name":"Equilibrium",
@@ -553,7 +553,7 @@
             "Warrior"
          ],
          "Empowered Text":"If you removed any fatigue, recover 10 health.",
-         "Image Number":38
+         "Image Number":22
       },
       {
          "Name":"First Aid",
@@ -571,7 +571,7 @@
          "AP cost":3,
          "Rules Text":"As well as healing, target may cure up to 1 condition. On crit, target removes 1 stack of fatigue. **Range cannot be altered, discard after use.**",
          "Flavor Text":"*Everyone knows how to survive, but some are a little better prepared for it.*",
-         "Image Number":39
+         "Image Number":23
       },
       {
          "Name":"Focus Shot",
@@ -593,7 +593,7 @@
             "Archer"
          ],
          "Empowered Text":"You may reduce your AP by 1 for +10 damage.",
-         "Image Number":40
+         "Image Number":24
       },
       {
          "Name":"Forced Migraine",
@@ -617,7 +617,7 @@
          ],
          "Empowered Text":"**Crit Rate +1** per card in target's hand.",
          "Flavor Text":"*The temple bell rings loudest at its center.*",
-         "Image Number":41
+         "Image Number":25
       },
       {
          "Name":"Grand Finale",
@@ -640,7 +640,7 @@
          ],
          "Empowered Text":"You may reduce your AP by another 2 for +20 damage.",
          "Flavor Text":"*Truly an end befitting the best of performances.*",
-         "Image Number":42
+         "Image Number":26
       },
       {
          "Name":"Grappling Hook",
@@ -662,7 +662,7 @@
             "Dragoon"
          ],
          "Empowered Text":"If used after a movement based action, AP cost is reduced by 1.",
-         "Image Number":43
+         "Image Number":27
       },
       {
          "Name":"Harness Cut",
@@ -684,7 +684,7 @@
          ],
          "Empowered Text":"Opponent discards Equipment regardless of Guard Roll. If any Equipment is discarded, increase your AP by 1.",
          "Flavor Text":"*Pretty embarassing when your armor just falls off.*",
-         "Image Number":44
+         "Image Number":28
       },
       {
          "Name":"Icy Wind",
@@ -707,7 +707,7 @@
          ],
          "Empowered Text":"Always inflicts the **\"Frozen\"** condition. Max Range increased by 1.",
          "Flavor Text":"*The sensation of a blizzard in one fell breeze.*",
-         "Image Number":45
+         "Image Number":29
       },
       {
          "Name":"Identify Weakpoint",
@@ -728,7 +728,7 @@
          ],
          "Empowered Text":"Max Range increased by 2.",
          "Flavor Text":"*\"No, not the shield. Aim at the fleshy bits.\"*",
-         "Image Number":46
+         "Image Number":30
       },
       {
          "Name":"Inner Strength",
@@ -747,7 +747,7 @@
          ],
          "Empowered Text":"If the attack is Melee, it also inflicts the **\"Disruption\"** condition.",
          "Flavor Text":"*\"The mind is sharper than any weapon.\"*",
-         "Image Number":47
+         "Image Number":31
       },
       {
          "Name":"Keen Vision",
@@ -766,7 +766,7 @@
          ],
          "Empowered Text":"You may choose not to discard after use.",
          "Flavor Text":"*\"What's it like to be that way? What can you see?\" \"I can see stars in the day. They're so beautiful then.\"*",
-         "Image Number":48
+         "Image Number":32
       },
       {
          "Name":"Knockdown",
@@ -786,7 +786,7 @@
             "Warrior"
          ],
          "Empowered Text":"You may move 1 space towards the target after push. Against that target, your next action this turn has **Crit rate +2.**",
-         "Image Number":49
+         "Image Number":33
       },
       {
          "Name":"Lightning Spear",
@@ -809,7 +809,7 @@
             "Spellslinger"
          ],
          "Empowered Text":"You may target a space instead of a character.",
-         "Image Number":50
+         "Image Number":34
       },
       {
          "Name":"Lockdown",
@@ -827,7 +827,7 @@
             "Sentinel"
          ],
          "Empowered Text":"The target also loses 20 health, even if they guarded.",
-         "Image Number":51
+         "Image Number":35
       },
       {
          "Name":"Longshot",
@@ -849,7 +849,7 @@
          ],
          "Empowered Text":"Max range increased by 1.",
          "Flavor Text":"*There are few better covers than sheer distance.*",
-         "Image Number":52
+         "Image Number":36
       },
       {
          "Name":"Magic Missile",
@@ -872,7 +872,7 @@
          ],
          "Empowered Text":"May target through obstructions and characters.",
          "Flavor Text":"*\"It doesn't matter if I can see my enemy if I know where to find them.\"*",
-         "Image Number":53
+         "Image Number":37
       },
       {
          "Name":"Plague Field",
@@ -893,7 +893,7 @@
          ],
          "Empowered Text":"**Crit Rate +1** for the rest of the turn. You gain 1 additional movement point this turn.",
          "Flavor Text":"*To the Caustician Acolytes, plague is the true equalizer.*",
-         "Image Number":54
+         "Image Number":38
       },
       {
          "Name":"Poison Bomb",
@@ -915,7 +915,7 @@
             "Archer"
          ],
          "Empowered Text":"Max Range increased by 1. Always inflicts the **\"Poisoned\"** condition.",
-         "Image Number":55
+         "Image Number":39
       },
       {
          "Name":"Reaper's Circle",
@@ -935,7 +935,7 @@
             "Dragoon"
          ],
          "Empowered Text":"If you damaged multiple opponents with this action, recover up to 20 health.",
-         "Image Number":56
+         "Image Number":40
       },
       {
          "Name":"Ruin",
@@ -952,7 +952,7 @@
          "AP cost":1,
          "Rules Text":"If this action deals no damage for any reason, you gain 1 stack of fatigue.",
          "Flavor Text":"*There is nothing that cannot erode.*",
-         "Image Number":57
+         "Image Number":41
       },
       {
          "Name":"Rush of Knowledge",
@@ -971,7 +971,7 @@
          ],
          "Empowered Text":"You man reduce your AP by 1 instead of discarding this.",
          "Flavor Text":"*One question, millions of answers.*",
-         "Image Number":58
+         "Image Number":42
       },
       {
          "Name":"Searing Touch",
@@ -992,7 +992,7 @@
          ],
          "Empowered Text":"Always inflicts the **\"Burning\"** condition. **Crit Rate +1**",
          "Flavor Text":"*\"We need no iron to brand our marks\"*",
-         "Image Number":59
+         "Image Number":43
       },
       {
          "Name":"Shadow Strike",
@@ -1013,7 +1013,7 @@
          ],
          "Empowered Text":"Target's AP is reduced by 1 if theirs is higher than yours.",
          "Flavor Text":"*\"They'll never see it coming.\"*",
-         "Image Number":60
+         "Image Number":44
       },
       {
          "Name":"Sleep Dart",
@@ -1036,7 +1036,7 @@
             "Hunter"
          ],
          "Empowered Text":"If you are adjacent to the target anytime this turn, you may return this card from Discard to Hand. If target has a Hunter's Mark, **Crit Rate +1** against that target for the rest of the turn.",
-         "Image Number":61
+         "Image Number":45
       },
       {
          "Name":"Smite",
@@ -1060,7 +1060,7 @@
          ],
          "Empowered Text":"Opponent discards all Reaction cards instead. If any Reactions are discarded this way, heal 10 health.",
          "Flavor Text":"*\"Before the Omnis, no lie can save you.\"*",
-         "Image Number":62
+         "Image Number":46
       },
       {
          "Name":"Sonic Alarm",
@@ -1081,7 +1081,7 @@
             "Scout"
          ],
          "Empowered Text":"You can't trigger your own Sonic Alarm Traps. Max Range increased by 1.",
-         "Image Number":63
+         "Image Number":47
       },
       {
          "Name":"Sprint",
@@ -1096,7 +1096,7 @@
          "AP cost":3,
          "Rules Text":"Immediately gain 2 MP and one Fatigue.",
          "Flavor Text":"*A window of opportunity is only open for so long.*",
-         "Image Number":64
+         "Image Number":48
       },
       {
          "Name":"Stone Skin",
@@ -1115,7 +1115,7 @@
          ],
          "Empowered Text":"**Crit Rate +4** instead. Remove 1 stack of Fatigue.",
          "Flavor Text":"*The stone remains forever solid and without wither.*",
-         "Image Number":65
+         "Image Number":49
       },
       {
          "Name":"Sunvial",
@@ -1139,7 +1139,7 @@
          ],
          "Empowered Text":"Discard at 2 tokens instead of 1.",
          "Flavor Text":"*It holds the last wish of a dying star.*",
-         "Image Number":66
+         "Image Number":50
       },
       {
          "Name":"Survival Tactics",
@@ -1158,7 +1158,7 @@
          ],
          "Empowered Text":"Instead of an Action, you may choose an Equipment with a star level of 2 or lower.",
          "Flavor Text":"*It pays to care as much about what you throw away as what you keep.*",
-         "Image Number":67
+         "Image Number":51
       },
       {
          "Name":"Swing of Destiny",
@@ -1178,7 +1178,7 @@
             "Warrior"
          ],
          "Empowered Text":"**Crit Rate +1**. You may discard  2 cards from your deck to not gain stack of Fatigue.",
-         "Image Number":68
+         "Image Number":52
       },
       {
          "Name":"Tackle",
@@ -1195,7 +1195,7 @@
          "AP cost":1,
          "Rules Text":"If this action deals no damage for any reason, you gain 1 stack of fatigue.",
          "Flavor Text":"*There's no wrong in avoiding trouble, but sometimes you just have to push through it.*",
-         "Image Number":69
+         "Image Number":53
       },
       {
          "Name":"Take Cover",
@@ -1214,7 +1214,7 @@
          ],
          "Empowered Text":"Raise the dice result of your next Crit Roll this turn by 1.",
          "Flavor Text":"*\"Hopeless? Please, there's still places to hide.\"*",
-         "Image Number":70
+         "Image Number":54
       },
       {
          "Name":"Throwing Axe",
@@ -1237,7 +1237,7 @@
          ],
          "Empowered Text":"**Crit Rate +1.**",
          "Flavor Text":"*\"Personally, I love axes. Good in a fight, cuts down trees, comes with a non-lethal side, AND you can even throw them.\"*",
-         "Image Number":71
+         "Image Number":55
       },
       {
          "Name":"Tonal Shift",
@@ -1257,7 +1257,7 @@
             "Maestro"
          ],
          "Empowered Text":"You may reduce or increase the AP cost by 1.",
-         "Image Number":72
+         "Image Number":56
       },
       {
          "Name":"Trap Sense",
@@ -1275,7 +1275,7 @@
             "Rogue"
          ],
          "Empowered Text":"Choose a player to reveal their hand. If they reveal any Sabotage cards, you may draw a card.",
-         "Image Number":73
+         "Image Number":57
       },
       {
          "Name":"Vacuum Force",
@@ -1296,7 +1296,7 @@
             "Channeler"
          ],
          "Empowered Text":"Max range increased by 1. Pulls 2 spaces instead of 1.",
-         "Image Number":74
+         "Image Number":58
       },
       {
          "Name":"Variance",
@@ -1316,7 +1316,7 @@
             "Sentinel"
          ],
          "Empowered Text":"Before dealing damage, you may recover or lose up to 10 health.",
-         "Image Number":75
+         "Image Number":59
       },
       {
          "Name":"Willbreaker",
@@ -1337,7 +1337,7 @@
          ],
          "Empowered Text":"Instead of +20 damage, you may have the target gain 2 Fatigue.",
          "Flavor Text":"*Hypnotism works best on the suggestible.*",
-         "Image Number":76
+         "Image Number":60
       },
       {
          "Name":"Warrior",

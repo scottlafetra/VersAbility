@@ -1,5 +1,5 @@
 {
-   "version":"0.1.1",
+   "version":"0.2.0",
    "cards":[
       {
          "Name":"Cleansing Tags",
@@ -53,7 +53,7 @@
          "Name":"Vola Tabi",
          "Type":"Equipment",
          "Star Level":4,
-         "Rules Text":"Your base movement is raised by 1.",
+         "Rules Text":"Your MP is increased by 1. *(Movement Points)*",
          "Flavor Text":"*The small wings are made of feathers plucked from over 20 different creatures. Included are various birds, elementals, raptors and even angels.*",
          "Image Number":7
       },
@@ -111,14 +111,14 @@
          "Name":"Negate",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"You Guard this attack if able. The opponent must discard that action if they otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
+         "Rules Text":"**Perfect Guard**. The opponent must discard that action if they otherwise wouldn't. You gain 1 stack of Fatigue and have 1 fewer AP on your next turn.",
          "Image Number":15
       },
       {
          "Name":"Death Roulette",
          "Type":"Reaction",
          "Reaction Type":"Attack *(Any)*",
-         "Rules Text":"Your opponent Crits this attack and you do not Guard. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
+         "Rules Text":"Your opponent's attack has **Definite Critical**, don;t roll for Guard. Then, prevent 30 damage from this attack *(or all if less)* and choose a character at random. The chosen character takes the damage that was prevented this way. If the attack has additional effects, they only affect your character.",
          "Image Number":16
       },
       {
@@ -337,7 +337,7 @@
             "Warrior",
             "Hunter"
          ],
-         "Empowered Text":"If target had any stacks of Fatigue or a Hunter's Mark, they gain a **\"Disruption\"** condition. If not, they gain a stack of Fatigue, plus a Hunter's Mark if you are the **Hunter**.",
+         "Empowered Text":"If target had 1 or more Fatigue or a Hunter's Mark, they gain a **\"Disruption\"** condition. If not, they gain 1 Fatigue, plus a Hunter's Mark if you are the **Hunter**.",
          "Image Number":27
       },
       {
@@ -371,7 +371,7 @@
             "Type":"Melee"
          },
          "AP cost":4,
-         "Rules Text":"Target has 1 fewer movement and 2 fewer AP next turn.",
+         "Rules Text":"Target has 1 fewer MP and 2 fewer AP next turn.",
          "Empowered Classes":[
             "Rogue"
          ],
@@ -465,7 +465,7 @@
             "Type":"Melee"
          },
          "AP cost":3,
-         "Rules Text":"If a target does not have the most Fatigue among all other characters, they gain up to 4 stacks of Fatigue, stopping once they are tied for most. If they do have the most, they gain 1 stack of Fatigue.",
+         "Rules Text":"If a target does not have the most Fatigue among all other characters, they gain up to 4 Fatigue, stopping once they are tied for most. If they do have the most, they gain 1 Fatigue.",
          "Empowered Classes":[
             "Drowser"
          ],
@@ -548,11 +548,11 @@
             "Type":"Self"
          },
          "AP cost":"X",
-         "Rules Text":"**X is the number of conditions and stacks of fatigue currently on you.** Cure all conditions on you and remove 1 stack of fatigue. Reduce your AP by 1.",
+         "Rules Text":"**X is the number of conditions and fatigue on you.** Cure all conditions on you and remove 1 fatigue. Reduce your AP by 1.",
          "Empowered Classes":[
             "Warrior"
          ],
-         "Empowered Text":"If you removed any stacks of fatigue, recover 10 health.",
+         "Empowered Text":"If you removed any fatigue, recover 10 health.",
          "Image Number":38
       },
       {
@@ -588,7 +588,7 @@
             "Max":4
          },
          "AP cost":3,
-         "Rules Text":"This action cannot be used if you are *Exhausted* or have a \"**Disruption**\" condition. +10 damage for each point of movement remaining, but immediately lose all your remaining movement. **Opponent does not make a Guard Roll.**",
+         "Rules Text":"This action cannot be used if you are *Exhausted* or have a \"**Disruption**\" condition. +10 damage for each remaining MP, but immediately lose all your MP. Target doesn't make a guard roll.",
          "Empowered Classes":[
             "Archer"
          ],
@@ -722,7 +722,7 @@
             "Max":3
          },
          "AP cost":1,
-         "Rules Text":"Mark a target. Your next Attack against that target this turn will automatically Crit *(if possible)*. **Discard after use.**",
+         "Rules Text":"Mark a target. Your next action against the target this turn has **Definite Critical** and they cannot react to it. **Discard after use.**",
          "Empowered Classes":[
             "Archer"
          ],
@@ -1094,7 +1094,7 @@
             "Type":"Self"
          },
          "AP cost":3,
-         "Rules Text":"Immediately gain 2 movement points this turn. You gain a stack of fatigue.",
+         "Rules Text":"Immediately gain 2 MP and one Fatigue.",
          "Flavor Text":"*A window of opportunity is only open for so long.*",
          "Image Number":64
       },
@@ -1208,7 +1208,7 @@
             "Type":"Melee"
          },
          "AP cost":2,
-         "Rules Text":"**Also costs 2 Movement Points. Can only target a non-character obstacle *(any size)*.** Move to any open space adjacent to the target obstacle.",
+         "Rules Text":"**Also costs 1 MP. Can only target a non-character obstacle *(any size)*.** Move to any open space adjacent to the target obstacle.",
          "Empowered Classes":[
             "Rogue"
          ],
@@ -1335,7 +1335,7 @@
          "Empowered Classes":[
             "Drowser"
          ],
-         "Empowered Text":"Instead of +20 damage, you may have the target gain 2 stacks of Fatigue.",
+         "Empowered Text":"Instead of +20 damage, you may have the target gain 2 Fatigue.",
          "Flavor Text":"*Hypnotism works best on the suggestible.*",
          "Image Number":76
       },
@@ -1400,7 +1400,7 @@
          ],
          "Class Ability":{
             "Name":"Dirty Fighter",
-            "Rules Text":"**Crit rate +1** against opponents that are ***Exhausted***. If you cause an opponent to discard any cards, they gain 1 stack of fatigue unless they are ***Exhausted***. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Rogue\"**"
+            "Rules Text":"**Crit rate +1** per condition on the target. If you cause an opponent to discard any cards, they gain a **\"Disruption\"** condition. Once per turn, you may receive action benefits as if your class was **\"Warrior\"** or **\"Rogue\"**"
          },
          "Image Number":5
       },
@@ -1466,7 +1466,7 @@
          ],
          "Class Ability":{
             "Name":"Spell Cycling",
-            "Rules Text":"If you discard an action from your Tablet on your turn, you may reduce your AP by 1 to draw a card. Once per turn, you may receive action benefits as if your class was **\"Magician\"** or **\"Archer\"**"
+            "Rules Text":"If you discard an action from your Tablet on your turn, you may either spend 1 AP or reduce your AP by 1 to draw a card. Once per turn, you may receive action benefits as if your class was **\"Magician\"** or **\"Archer\"**"
          },
          "Image Number":10
       },
@@ -1505,7 +1505,7 @@
          ],
          "Class Ability":{
             "Name":"Cloud Vault",
-            "Rules Text":"As an action, you may spend 1 movement and 2 AP to move 2 spaces through a small obstacle, or 3 AP for a large obstacle. Then your next attack action this turn has **Crit Rate +1**. You cannot use this action while Exhausted, or under the influence of a Condition that restricts movement. *(EX: Frozen)*"
+            "Rules Text":"As an action, you may spend 2 AP and 1 MP to target an onper space within Range 1-2, ignoring obstacles. You jump, landing on that space. Your next attack action this turn has **Crit Rate +1**. You cannot use this ability if you have a movement-hindering condition."
          },
          "Image Number":13
       },
@@ -1531,7 +1531,7 @@
          ],
          "Class Ability":{
             "Name":"Faith Healing",
-            "Rules Text":"Once per turn, you may pay 10 health and coose an Active Condition on you. Either cure it, or inflict it on an adjacent character. Whenever you cure a Condition, it remains cured for 2 turns instead of 1."
+            "Rules Text":"Once per turn, you may pay 10 health and coose an Active Condition on you. Either cure it, or inflict it on an adjacent character. You cannot have Advantages."
          },
          "Image Number":15
       },
@@ -1558,7 +1558,7 @@
          ],
          "Class Ability":{
             "Name":"Army of One",
-            "Rules Text":"Adapting an Equipment card to your Tablet costs 1 fewer AP. You may receive action benefits as if you were **Any Other Class**."
+            "Rules Text":"Filling your Equipment Slot with **Adapt** takes 1 fewer AP. You may receive action benefits as if you were **Any Other Class**."
          },
          "Image Number":17
       },
@@ -1832,7 +1832,7 @@
          },
          "AP cost":1,
          "Starting Class":"Drowser",
-         "Rules Text":"**Crit Rate +2.** On Crit, target gains 1 stack of Fatigue unless they are ***Exhausted*** or have already gotten any stacks of Fatigue this turn.",
+         "Rules Text":"The first time you successfully Crit with an attack action each turn, each target affected gains 1 Fatigue. This ability cannot affect you. When Curing the \"Exhausted\" Condition, you don't receive any Fatigue.",
          "Flavor Text":"*\"Sleep my child. Let me steal your dreams.\"*",
          "Image Number":15
       },

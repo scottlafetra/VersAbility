@@ -1909,5 +1909,49 @@
          "Flavor Text":"*A true champion always rises to the occasion.*",
          "Image Number":19
       }
+   ],
+   "conditions":[
+      {
+         "Name":"Exhausted",
+         "Type":"Condition",
+         "Rules Text":"**Adapt** and **Study** each cost +1 AP. You can have multiples of this condition. As an action, spend 1 AP and 1 MP to cure this condition. You may use this action multiple times per turn. If you have less than 5 Fatigue when curing this condition, gain 1 Fatigue.",
+         "Image Number":1
+      },
+      {
+         "Name":"Poisoned",
+         "Type":"Condition",
+         "Rules Text":"At the start of your turn, lose 10 health. As an action, spend 3 AP to cure this condition. When you cure this condition, you have 1 fewer AP next turn.",
+         "Image Number":2
+      },
+      {
+         "Name":"Frozen",
+         "Type":"Condition",
+         "Rules Text":"You cannot move yourself. *(Other players can still displace you)* If you would ever gain Burning, instead cure this condition. As an action, spend 2 AP and all your movement to cure this condition.",
+         "Image Number":3
+      },
+      {
+         "Name":"Blinded",
+         "Type":"Condition",
+         "Rules Text":"Ranged actions cannot target farther than their minimum range. If you roll a 1 on a Crit Roll, your attack misses entirely. At the end of your turn, if you have any spare AP, cure this condition.",
+         "Image Number":4
+      },
+      {
+         "Name":"Burning",
+         "Type":"Condition",
+         "Rules Text":"Damage you receive from Actions is increased by 10. If you would ever be Frozen, instead cure this condition. Cure this condition at the end of your turn if you didn't move on that turn.",
+         "Image Number":5
+      },
+      {
+         "Name":"Disruption",
+         "Type":"Condition",
+         "Rules Text":"If you would ever draw a card except for the first card you draw on your turn, instead cure this condition. When you cure this condition, discard the top card of your deck.",
+         "Image Number":6
+      },
+      {
+         "Name":"Immune",
+         "Type":"Advantage",
+         "Rules Text":"When you gain this advantage, cure all other conditions. You can't gain conditions and Actions from opponents can't Crit against you. At the start of your next turn, cure this condition.",
+         "Image Number":7
+      }
    ]
 }

@@ -2,7 +2,7 @@
 
 A game by Andrew DiLullo
 
-*Version 0.1*
+*Version 0.3*
 
 Vers-Ability is a 2 - 4 player arena based game in which characters fight for dominance and opportunity.
 
@@ -83,9 +83,9 @@ There are 4 diffrent places where cards can exist: Deck, Hand, Action Tablet and
 
 ### Deck
 
-Each deck consists of 12 cards. **At the start of the game, shuffle your deck and draw 3 cards.**
+Each deck consists of 12 cards and a 5 card sideboard. **At the start of the game, shuffle your deck and draw 3 cards.**
 
-In addition to increasing your AP at the start of your turn, you eill also draw 1 card from here.
+In addition to increasing your AP at the start of your turn, you will also draw 1 card from here.
 
 ### Hand
 
@@ -181,7 +181,7 @@ If both players succeed their rolls, then both effects happen.
 In most cases, this means the +10 bonus is cancelled out by the -10 reduction.
 However, there are many Actions that have additional interactions involving Critical Hits.
 
-If an attack deals Absolute damage, no dice are rolled on either side unless stated. In most cases, Absolute is fixed and cannot be influenced.
+If an attack deals Absolute damage, no dice are rolled on either side unless stated. In addition, you may not react against an action that deals absolute attacks. In most cases, Absolute is fixed and cannot be influenced.
 
 ## Equipment and Reactions
 
@@ -211,11 +211,13 @@ Some classes have abilites that modify deck construction.
 
 If at any time you would need to draw or reveal cards from your deck and your deck is empty, shuffle your discard facedown and make that your new deck.
 
-Unfortunatly, each time this hapens you gain 4 stacks of fatigue. You might also gain stacks of fatigue from certain actions. Fatigue stacks don't do anything individually, but will start penalizing you in large amounts.
+At this time, before suffling, you may **Recast**. If you choose to Recast, you may exchange up to 5 cards from your sideboard into your deck. The max amount of swaps is decreased by 1 for each "Exhausted" condition you have.
 
-If you have 4 or more stacks, you are "Exhausted", which increased the cost of Adapt and Study by 1 AP each.
+Unfortunatly, each time this hapens you gain 2 Fatigue and the Exhausted Condition. You might also gain stacks of fatigue from certain actions. Fatigue stacks don't do anything individually, but will start penalizing you in large amounts.
 
-If you have 8 or more stacks, you are "Drained", causing you to pass out. **If this happens you are knocked out.**
+The first time a player reaches 5+ Fatigue each game, they gain a Exhausted Condition.
+
+If you have 10 or more stacks, you are knocked out.
 
 Some Actions have the opportunity to inflict Conditions on your target.
 

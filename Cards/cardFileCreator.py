@@ -51,18 +51,19 @@ while(True):
             if text != "":
                 file.write(" \"Attack Type\": \"" + text + "\", ")
 
-                #Damage
-                print "Damage? "
-                text = raw_input()
-                if text != "":
-                    file.write(" \"Damage\": " + text + ", ")
+        #effect type
+        print "Effect Type? "
+        text = raw_input()
+        if cardType != "":
+            file.write(" \"Effect Type\": { \"Type\": " + text + "\" ")
 
-        if actionType == "Focus":
-            #Focus type
-            print "Focus Type? "
+            #effect amount
+            print "Effect Amount? "
             text = raw_input()
-            if text != "":
-                file.write(" \"Focus Type\": \"" + text + "\", ")
+            if cardType != "":
+                file.write(", \"Amount\": " + text + "\" ")
+
+            file.write("},")
         
         #Range type
         print "Range Type? "
